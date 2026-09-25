@@ -1,16 +1,16 @@
 # MC-Challenge-Release
 
-Releases publiques de **MC Challenge Plugin** (Paper).
+Public releases of **MC Challenge Plugin** (Paper).
 
-Ce dépôt ne contient que les `.jar` publiés automatiquement par GitHub Actions. Le code source est privé.
+This repository only contains the `.jar` files published automatically by GitHub Actions. The source code is private.
 
 ## Installation
 
-1. Télécharger le `.jar` de la [dernière release](https://github.com/ShyzosCorp/MC-Challenge-Release/releases/latest).
-2. Le placer dans le dossier `plugins/` du serveur, puis redémarrer.
+1. Download the `.jar` from the [latest release](https://github.com/ShyzosCorp/MC-Challenge-Release/releases/latest).
+2. Put it in the server's `plugins/` directory, then restart.
 
-## Mises à jour
+## Updates
 
-Le plugin vérifie ce dépôt au démarrage et télécharge automatiquement les nouvelles versions dans `plugins/update/`. Elles sont appliquées au redémarrage suivant.
+On startup, the plugin checks this repository and automatically downloads new versions into `plugins/update/`. They are applied on the next restart.
 
-Commandes (OP) : `/update check`, `/update download`.
+Commands (OP): `/update check`, `/update download`.
