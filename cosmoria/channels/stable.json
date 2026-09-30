@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "product": "cosmoria",
+  "channel": "stable",
+  "version": "1.0.0",
+  "published_at": "2026-09-30T04:30:30Z",
+  "min_launcher_version": "1.1.0",
+  "manifest": {
+    "url": "https://raw.githubusercontent.com/ShyzosCorp/MC-Challenge-Release/cosmoria-v1.0.0/cosmoria/1.0.0/client-manifest.json",
+    "sha256": "b2312542fbce1ce18baf15f3ac60f6b37e88a5eeca12f7d72d61a088f5014750",
+    "size": 153382
+  }
+}
