@@ -1,0 +1,347 @@
+## 1.0.0 (2026-09-30)
+
+Première version publique de Cosmoria, installée et mise à jour par le Cosmoria Launcher (1.1.0 ou plus récent).
+
+- Minecraft 26.2 avec Fabric Loader 0.19.5 ; Java 25 est installé et géré par le launcher.
+- 107 mods et bibliothèques côté joueur : RPG (sorts, sorciers, compétences et arbre de talents, runes, bijoux, reliques),
+  armes et armures (Arsenal, Armory, Immersive Armors, Mythic Upgrades, TaCZ), nouveaux minerais, donjons,
+  structures et villages, événements lunaires, créatures et nuits de morts-vivants.
+- Performances et confort : Sodium, Lithium, C2ME, Iris (shaders), REI, Jade, Waystones, Inventory Profiles Next,
+  Sound Physics, Presence Footsteps, animations et éclairage dynamique.
+- Tes mondes, captures d'écran, liste de serveurs et réglages personnels ne sont jamais écrasés par une mise à
+  jour ; une config que tu as modifiée est gardée (la nouvelle version arrive à côté en `.pack-new`).
+
+### Détails techniques
+
+- `config/iris.properties` et `config/sounds/chat.json` reclassés PERSISTENT (jamais distribués) : choix de shader
+  du joueur réécrit à chaque démarrage, et `mentionKeywords` contenait le pseudo de l'auteur du profil exporté
+- Import de `Cosmoria 1.0.1.mrpack` (1.0.1)
+  - ajouté : rayvaxmodmore_ores 1.1.2 (both)
+  - ajouté : ranged-weapon-api 4.0.0+26.2 (both)
+  - ajouté : structure-pool-api 1.3.0+26.2 (server)
+  - ajouté : mythic-upgrades 5.1.1 (both)
+  - ajouté : gazebos 2.2.0+26.2 (server)
+  - ajouté : spell-engine 1.10.5+26.2 (both)
+  - ajouté : arsenal-rpg-series 1.5.1+26.2 (both)
+  - ajouté : immersive-ores 26.2-0.2 (both)
+  - ajouté : spell-power 1.6.2+26.2 (both)
+  - ajouté : skills 0.19.1 (both)
+  - ajouté : jewelry 2.4.1+26.2 (both)
+  - ajouté : exp-ore 26.2-0.1 (both)
+  - ajouté : wizards 3.1.2+26.2 (both)
+  - ajouté : runes 1.3.2+26.2 (both)
+  - ajouté : bundle-api 4.0.0+26.2 (both)
+  - ajouté : skill-tree 1.6.1+26.2 (both)
+  - ajouté : immersive-armors 1.8.2+26.2 (both)
+  - ajouté : terrablender 26.2.0.0.2 (both)
+  - ajouté : trinkets-updated 4.1.1+26.2 (both)
+  - ajouté : armory-rpg-series 1.5.2+26.2 (both)
+  - ajouté : critical-strike 1.0.6+26.2 (both)
+  - ajouté : relics-rpg 1.4.1+26.2 (both)
+  - ajouté : armor-model-api 1.1.2+26.2 (both)
+  - mis à jour : fancymenu → 3.9.14
+  - fichier ajouté : common/config/armory_rpgs/client.json
+  - fichier ajouté : common/config/armory_rpgs/effects.json
+  - fichier ajouté : common/config/armory_rpgs/equipment_v3.json
+  - fichier ajouté : common/config/arsenal/effects.json
+  - fichier ajouté : common/config/arsenal/equipment_v2.json
+  - fichier ajouté : common/config/arsenal/ranged_weapons.json
+  - fichier ajouté : common/config/arsenal/shields.json
+  - fichier ajouté : common/config/attributefix/critical_strike/chance.json
+  - fichier ajouté : common/config/attributefix/critical_strike/damage.json
+  - fichier ajouté : common/config/attributefix/ranged_weapon/damage.json
+  - fichier ajouté : common/config/attributefix/ranged_weapon/haste.json
+  - fichier ajouté : common/config/attributefix/ranged_weapon/pull_time.json
+  - fichier ajouté : common/config/attributefix/ranged_weapon/velocity.json
+  - fichier ajouté : common/config/attributefix/spell_engine/damage_taken.json
+  - fichier ajouté : common/config/attributefix/spell_engine/evasion_chance.json
+  - fichier ajouté : common/config/attributefix/spell_engine/healing_taken.json
+  - fichier ajouté : common/config/attributefix/spell_power/arcane.json
+  - fichier ajouté : common/config/attributefix/spell_power/critical_chance.json
+  - fichier ajouté : common/config/attributefix/spell_power/critical_damage.json
+  - fichier ajouté : common/config/attributefix/spell_power/fire.json
+  - fichier ajouté : common/config/attributefix/spell_power/frost.json
+  - fichier ajouté : common/config/attributefix/spell_power/generic.json
+  - fichier ajouté : common/config/attributefix/spell_power/haste.json
+  - fichier ajouté : common/config/attributefix/spell_power/healing.json
+  - fichier ajouté : common/config/attributefix/spell_power/lightning.json
+  - fichier ajouté : common/config/attributefix/spell_power/resistance.generic.json
+  - fichier ajouté : common/config/attributefix/spell_power/soul.json
+  - fichier ajouté : common/config/awesomedungeon.config.properties
+  - fichier ajouté : common/config/awesomedungeonocean.config.properties
+  - fichier ajouté : common/config/bettervillage.config.properties
+  - fichier ajouté : common/config/buffmobs.json
+  - fichier ajouté : common/config/creativecore-client.json
+  - fichier ajouté : common/config/creativecore.json
+  - fichier ajouté : common/config/critical_strike/client_config.json
+  - fichier ajouté : common/config/critical_strike/server_config.json
+  - fichier ajouté : common/config/enhancedcelestials2core/fabric_mixins.properties
+  - fichier ajouté : common/config/expore-common.toml
+  - fichier ajouté : common/config/gazebo/villages.json
+  - fichier ajouté : common/config/immersive_armors.json
+  - fichier ajouté : common/config/immersiveores/enderium-common.toml
+  - fichier ajouté : common/config/immersiveores/vibranium-common.toml
+  - fichier ajouté : common/config/immersiveores/vulpus-common.toml
+  - fichier ajouté : common/config/iris-excluded.json
+  - fichier ajouté : common/config/iris.properties
+  - fichier ajouté : common/config/jewelry/items_v9.json
+  - fichier ajouté : common/config/jewelry/villages.json
+  - fichier ajouté : common/config/libraryferret.config.properties
+  - fichier ajouté : common/config/mutantszombies.json5
+  - fichier ajouté : common/config/mythicupgrades.json
+  - fichier ajouté : common/config/pal.properties
+  - fichier ajouté : common/config/puffish_skills/config.json
+  - fichier ajouté : common/config/relics/effects.json
+  - fichier ajouté : common/config/relics/items_v2.json
+  - fichier ajouté : common/config/rpg_series/loot_equipment_v2.json
+  - fichier ajouté : common/config/rpg_series/loot_scrolls_v2.json
+  - fichier ajouté : common/config/skill_tree_rpgs/effects.json
+  - fichier ajouté : common/config/sounds/chat.json
+  - fichier ajouté : common/config/sounds/event.json
+  - fichier ajouté : common/config/sounds/mod_utils.json
+  - fichier ajouté : common/config/sounds/ui.json
+  - fichier ajouté : common/config/sounds/world.json
+  - fichier ajouté : common/config/spell_engine/client.json5
+  - fichier ajouté : common/config/spell_engine/elemental_weaknesses.json
+  - fichier ajouté : common/config/spell_engine/hud_config.json
+  - fichier ajouté : common/config/spell_engine/server.json5
+  - fichier ajouté : common/config/spell_engine/spell_container_templates_v2.json
+  - fichier ajouté : common/config/spell_engine/weapon_fallback.json
+  - fichier ajouté : common/config/spell_power/attributes.json
+  - fichier ajouté : common/config/terrablender.toml
+  - fichier ajouté : common/config/trinkets.json
+  - fichier ajouté : common/config/undeadnights.json5
+  - fichier ajouté : common/config/undeadnights_difficulty_config.json
+  - fichier ajouté : common/config/undeadnights_horde_mobs_config.json
+  - fichier ajouté : common/config/wizards/effects.json
+  - fichier ajouté : common/config/wizards/equipment_v2.json
+  - fichier ajouté : common/config/wizards/summoned_entities.json
+  - fichier ajouté : common/config/wizards/tweaks.json
+  - fichier ajouté : common/config/wizards/villages.json
+  - fichier modifié : client/config/notenoughanimations.json
+  - fichier modifié : common/config/packetfixer.properties
+  - fichier modifié : client/config/physicsmod/physics_client_config.json
+  - fichier modifié : client/config/roughlyenoughitems/pinyin.properties
+  - fichier modifié : client/config/roughlyenoughitems/pinyin_double.properties
+  - fichier modifié : client/config/sound_physics_remastered/sound_rates.properties
+- Import de `Cosmoria 1.0.0.mrpack` (1.0.0)
+  - ajouté : enhanced-celestials-2-core 4.0.3.3 (both)
+  - ajouté : fabric-language-kotlin 1.14.1+kotlin.2.4.20 (both)
+  - ajouté : almanac 1.26.9.1 (server)
+  - ajouté : woodwalkers 8.3.2 (both)
+  - ajouté : ferrite-core 9.0.0 (both)
+  - ajouté : enhanced-celestials-2-default-lunar-events 4.0.0.6 (both)
+  - ajouté : tacz-refabricated-unofficial-port 0.8.3-beta2+fabric26.2-serverfix (both)
+  - ajouté : library-ferret 5.0.0 (both)
+  - ajouté : attributefix 26.2.0.1 (both)
+  - ajouté : awesome-dungeon 4.0.0 (server)
+  - ajouté : yacl 3.9.7+26.2-fabric (client)
+  - ajouté : libipn 6.9.0 (client)
+  - ajouté : mru 1.0.40+26.2 (client)
+  - ajouté : sound 2.5.1+edge (client)
+  - ajouté : iris 1.11.4+mc26.2 (client)
+  - ajouté : krypton 0.3.1 (both)
+  - ajouté : forge-config-api-port 26.2.1 (both)
+  - ajouté : shogi 26.2.0.8 (both)
+  - ajouté : visual-workbench 26.2.1 (both)
+  - ajouté : continuity 3.0.1+26.2 (client)
+  - ajouté : clumps 26.2.1 (server)
+  - ajouté : visuality 0.7.15+26.3 (client)
+  - ajouté : not-enough-animations 1.12.5 (client)
+  - ajouté : entity-model-features 3.3.8 (client)
+  - ajouté : better-village 4.0.0 (server)
+  - ajouté : physicsmod 3.2.4 (client)
+  - ajouté : prickle 26.2.0.3 (both)
+  - ajouté : rei 26.2.820 (client)
+  - ajouté : data-anchor 5.0.0.4 (both)
+  - ajouté : language-reload 1.7.7+26.2 (client)
+  - ajouté : creativecore 2.14.16 (client)
+  - ajouté : dynamic-fps 3.11.9 (client)
+  - ajouté : placeholder-api 3.1.0-beta.1+26.2 (client)
+  - ajouté : crafted-core 8.2.1 (both)
+  - ajouté : veinminer 2.12.1 (both)
+  - ajouté : chat-heads 1.3.0 (client)
+  - ajouté : melody 1.0.17 (client)
+  - ajouté : balm 26.2.0.9 (both)
+  - ajouté : presence-footsteps 1.13.3+26.2 (client)
+  - ajouté : modmenu 20.0.3 (client)
+  - ajouté : fzzy-config 0.7.7+26.2 (both)
+  - ajouté : waystones 26.2.0.12 (both)
+  - ajouté : moreculling 1.8.1 (client)
+  - ajouté : immediatelyfast 1.16.5+26.2 (client)
+  - ajouté : architectury-api 21.1.11 (client)
+  - ajouté : lambdynamiclights 4.12.4+26.2 (client)
+  - ajouté : undead-nights 2.2.5-Fabric-mc26.2 (both)
+  - ajouté : no-chat-reports 26.2-v2.20.2 (client)
+  - ajouté : buff-mobs 3.3.3+mc26.1-fabric (server)
+  - ajouté : player-animation-library 1.2.6+mc.26.2 (both)
+  - ajouté : sound-physics-remastered 1.5.1+26.2 (client)
+  - ajouté : controlling 26.2.4 (client)
+  - ajouté : entityculling 1.11.2 (client)
+  - ajouté : 3dskinlayers 1.11.3 (client)
+  - ajouté : reeses-sodium-options 2.2.4+mc26.2 (client)
+  - ajouté : searchables 1.0.1 (client)
+  - ajouté : drippy-loading-screen 3.1.5 (client)
+  - ajouté : controlify 3.5.3+mc26.2 (client)
+  - ajouté : sodium 0.9.2+mc26.2 (client)
+  - ajouté : c2me-fabric 0.4.2-alpha.0.52+26.2 (server)
+  - ajouté : fast-ip-ping 1.0.12 (client)
+  - ajouté : fancymenu 3.9.12 (client)
+  - ajouté : zoomify 2.16.3+26.2 (client)
+  - ajouté : puzzles-lib 26.2.4 (both)
+  - ajouté : remorphed 8.1 (both)
+  - ajouté : ambientsounds 6.3.6 (client)
+  - ajouté : cloth-config 26.2.155 (both)
+  - ajouté : mouse-tweaks 2.31 (client)
+  - ajouté : lootr 1.24.41.124 (both)
+  - ajouté : inventory-profiles-next 2.3.8 (client)
+  - ajouté : jade 26.2.11+fabric (client)
+  - ajouté : lmd 1.26.9.1 (server)
+  - ajouté : entitytexturefeatures 7.2.4 (client)
+  - ajouté : mutants-and-zombies 1.3.3-Fabric-mc26.1 (both)
+  - ajouté : konkrete 1.11.1 (client)
+  - ajouté : debugify 26.2.0.1 (client)
+  - ajouté : packet-fixer 3.3.6 (both)
+  - ajouté : appleskin 3.0.10+mc26.2 (both)
+  - ajouté : sodium-extra 0.9.4+mc26.2 (client)
+  - ajouté : lithium 0.25.3+mc26.2 (both)
+  - ajouté : badoptimizations 2.4.1 (client)
+  - ajouté : awesome-dungeon-edition-ocean 4.0.0 (both)
+  - ajouté : enhanced-celestials-2-shader-support 4.0.0.4 (client)
+  - fichier ajouté : client/config/MouseTweaks.cfg
+  - fichier ajouté : client/config/NoChatReports/NCR-Client.json
+  - fichier ajouté : client/config/NoChatReports/NCR-Common.json
+  - fichier ajouté : client/config/NoChatReports/NCR-ServerPreferences.json
+  - fichier ajouté : common/config/Veinminer/blocks.json
+  - fichier ajouté : common/config/Veinminer/groups.json
+  - fichier ajouté : common/config/Veinminer/settings.json
+  - fichier ajouté : common/config/almanac-nbtFix.json5
+  - fichier ajouté : common/config/appleskin.json5
+  - fichier ajouté : common/config/attributefix/minecraft/air_drag_modifier.json
+  - fichier ajouté : common/config/attributefix/minecraft/armor.json
+  - fichier ajouté : common/config/attributefix/minecraft/armor_toughness.json
+  - fichier ajouté : common/config/attributefix/minecraft/attack_damage.json
+  - fichier ajouté : common/config/attributefix/minecraft/attack_knockback.json
+  - fichier ajouté : common/config/attributefix/minecraft/attack_speed.json
+  - fichier ajouté : common/config/attributefix/minecraft/below_name_distance.json
+  - fichier ajouté : common/config/attributefix/minecraft/block_break_speed.json
+  - fichier ajouté : common/config/attributefix/minecraft/block_interaction_range.json
+  - fichier ajouté : common/config/attributefix/minecraft/bounciness.json
+  - fichier ajouté : common/config/attributefix/minecraft/burning_time.json
+  - fichier ajouté : common/config/attributefix/minecraft/camera_distance.json
+  - fichier ajouté : common/config/attributefix/minecraft/entity_interaction_range.json
+  - fichier ajouté : common/config/attributefix/minecraft/explosion_knockback_resistance.json
+  - fichier ajouté : common/config/attributefix/minecraft/fall_damage_multiplier.json
+  - fichier ajouté : common/config/attributefix/minecraft/flying_speed.json
+  - fichier ajouté : common/config/attributefix/minecraft/follow_range.json
+  - fichier ajouté : common/config/attributefix/minecraft/friction_modifier.json
+  - fichier ajouté : common/config/attributefix/minecraft/gravity.json
+  - fichier ajouté : common/config/attributefix/minecraft/jump_strength.json
+  - fichier ajouté : common/config/attributefix/minecraft/knockback_resistance.json
+  - fichier ajouté : common/config/attributefix/minecraft/luck.json
+  - fichier ajouté : common/config/attributefix/minecraft/max_absorption.json
+  - fichier ajouté : common/config/attributefix/minecraft/max_health.json
+  - fichier ajouté : common/config/attributefix/minecraft/mining_efficiency.json
+  - fichier ajouté : common/config/attributefix/minecraft/movement_efficiency.json
+  - fichier ajouté : common/config/attributefix/minecraft/movement_speed.json
+  - fichier ajouté : common/config/attributefix/minecraft/name_tag_distance.json
+  - fichier ajouté : common/config/attributefix/minecraft/oxygen_bonus.json
+  - fichier ajouté : common/config/attributefix/minecraft/safe_fall_distance.json
+  - fichier ajouté : common/config/attributefix/minecraft/scale.json
+  - fichier ajouté : common/config/attributefix/minecraft/sneaking_speed.json
+  - fichier ajouté : common/config/attributefix/minecraft/spawn_reinforcements.json
+  - fichier ajouté : common/config/attributefix/minecraft/step_height.json
+  - fichier ajouté : common/config/attributefix/minecraft/submerged_mining_speed.json
+  - fichier ajouté : common/config/attributefix/minecraft/sweeping_damage_ratio.json
+  - fichier ajouté : common/config/attributefix/minecraft/tempt_range.json
+  - fichier ajouté : common/config/attributefix/minecraft/water_movement_efficiency.json
+  - fichier ajouté : common/config/attributefix/minecraft/waypoint_receive_range.json
+  - fichier ajouté : common/config/attributefix/minecraft/waypoint_transmit_range.json
+  - fichier ajouté : common/config/attributefix/tacz/tacz.bullet_resistance.json
+  - fichier ajouté : client/config/badoptimizations.txt
+  - fichier ajouté : common/config/c2me.toml
+  - fichier ajouté : common/config/cardinal-components-api.properties
+  - fichier ajouté : client/config/chat_heads.json5
+  - fichier ajouté : client/config/continuity.json
+  - fichier ajouté : client/config/controlify/controlify.json
+  - fichier ajouté : common/config/craftedcore.json5
+  - fichier ajouté : client/config/drippyloadingscreen/options.txt
+  - fichier ajouté : client/config/dynamic_fps.json
+  - fichier ajouté : client/config/entity_model_features.json
+  - fichier ajouté : client/config/entity_texture_features.json
+  - fichier ajouté : client/config/entityculling.json
+  - fichier ajouté : client/config/fancymenu/custom_gui_screens.txt
+  - fichier ajouté : client/config/fancymenu/customizablemenus.txt
+  - fichier ajouté : client/config/fancymenu/legacy_checklist.txt
+  - fichier ajouté : client/config/fancymenu/options.txt
+  - fichier ajouté : client/config/fancymenu/ui_themes/cherry_blossom.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/cozy_campfire.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/dark.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/dark_high_contrast.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/light.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/light_high_contrast.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/pumpkin_soup.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/purple_void.json
+  - fichier ajouté : client/config/fancymenu/ui_themes/spooky_season.json
+  - fichier ajouté : common/config/ferritecore.mixin.properties
+  - fichier ajouté : common/config/forgeconfigapiport.toml
+  - fichier ajouté : client/config/immediatelyfast.json
+  - fichier ajouté : client/config/inventoryprofilesnext/inventoryprofiles.json
+  - fichier ajouté : client/config/jade/hide-blocks.json
+  - fichier ajouté : client/config/jade/hide-entities.json
+  - fichier ajouté : client/config/jade/hide-mob-effects.json
+  - fichier ajouté : client/config/jade/jade.json
+  - fichier ajouté : client/config/jade/profiles/1/jade.json
+  - fichier ajouté : client/config/jade/profiles/2/jade.json
+  - fichier ajouté : client/config/jade/profiles/3/jade.json
+  - fichier ajouté : client/config/jade/server-plugin-overrides.json
+  - fichier ajouté : client/config/jade/sort-order.json
+  - fichier ajouté : client/config/lambdynlights.toml
+  - fichier ajouté : client/config/languagereload.json
+  - fichier ajouté : common/config/letmedespawn.json
+  - fichier ajouté : common/config/lithium.properties
+  - fichier ajouté : common/config/lootr-client.jsonc
+  - fichier ajouté : common/config/lootr-common.jsonc
+  - fichier ajouté : client/config/modmenu.json
+  - fichier ajouté : client/config/moreculling.toml
+  - fichier ajouté : client/config/notenoughanimations.json
+  - fichier ajouté : common/config/packetfixer.properties
+  - fichier ajouté : client/config/physicsmod/physics_animations_client_config.json
+  - fichier ajouté : client/config/physicsmod/physics_blocks_client_config.json
+  - fichier ajouté : client/config/physicsmod/physics_client_config.json
+  - fichier ajouté : client/config/physicsmod/physics_cloth_config.json
+  - fichier ajouté : client/config/physicsmod/physics_mobs_client_config.json
+  - fichier ajouté : client/config/physicsmod/physics_server_config.json
+  - fichier ajouté : client/config/physicsmod/physics_snow_client_config.json
+  - fichier ajouté : client/config/physicsmod/physics_vines_client_config.json
+  - fichier ajouté : client/config/presencefootsteps/userconfig.json5
+  - fichier ajouté : common/config/remorphed.json5
+  - fichier ajouté : common/config/resourceful-config-web.json
+  - fichier ajouté : client/config/roughlyenoughitems/collapsible.json5
+  - fichier ajouté : client/config/roughlyenoughitems/config.json5
+  - fichier ajouté : client/config/roughlyenoughitems/hints.json
+  - fichier ajouté : client/config/roughlyenoughitems/pinyin.properties
+  - fichier ajouté : client/config/roughlyenoughitems/pinyin_double.properties
+  - fichier ajouté : client/config/skinlayers.json
+  - fichier ajouté : client/config/sodium-extra-options.json
+  - fichier ajouté : client/config/sodium-extra.properties
+  - fichier ajouté : client/config/sodium-mixins.properties
+  - fichier ajouté : client/config/sodium-options.json
+  - fichier ajouté : client/config/sound_physics_remastered/occlusion.properties
+  - fichier ajouté : client/config/sound_physics_remastered/reflectivity.properties
+  - fichier ajouté : client/config/sound_physics_remastered/sound_rates.properties
+  - fichier ajouté : client/config/sound_physics_remastered/soundphysics.properties
+  - fichier ajouté : common/config/tacz-client.toml
+  - fichier ajouté : common/config/tacz-common.toml
+  - fichier ajouté : common/config/tacz-pre.toml
+  - fichier ajouté : common/config/tacz-server.toml
+  - fichier ajouté : client/config/transition.json
+  - fichier ajouté : client/config/trender.json
+  - fichier ajouté : client/config/visuality.json
+  - fichier ajouté : common/config/visualworkbench-client.toml
+  - fichier ajouté : common/config/visualworkbench-server.toml
+  - fichier ajouté : common/config/walkers.json5
+  - fichier ajouté : common/config/waystones-common.toml
+  - fichier ajouté : client/config/yacl.json5
+  - fichier ajouté : client/config/zoomify.json
+- Workflow .mrpack : import, diff, décisions de side, release client/serveur, updater serveur.

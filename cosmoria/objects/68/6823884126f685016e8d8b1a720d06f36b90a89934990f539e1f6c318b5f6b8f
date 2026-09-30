@@ -1,0 +1,5 @@
+#PlayerAbilityLib configuration file
+#
+#If alwaysLogTamperWarnings is set to false, external update messages will be logged only once per game session
+#Mon Sep 28 21:19:01 CEST 2026
+alwaysLogTamperWarnings=false
