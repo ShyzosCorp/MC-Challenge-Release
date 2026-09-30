@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "notes": "First public release of the Cosmoria Launcher.\n\n- Sign in with your Microsoft account (Xbox Live and Minecraft services); your Minecraft ownership is verified\n  before you can play.\n- Offline play stays available for up to 30 days for the account verified on this PC; your sign-in is kept in the\n  Windows Credential Manager, never in a plain file.\n- Java 25 is downloaded, verified and managed for you: nothing to install by hand.\n- PLAY launches Minecraft 26.2 with Fabric and the Cosmoria modpack.\n- Install, update and repair Cosmoria in one click: every download is verified, and an update is applied as a whole\n  or rolled back, so an interruption never leaves a broken game.\n- The launcher updates itself: new versions are announced, downloaded, signature-checked and installed in one click\n  (or Later). Choose the stable or dev update channel in Settings.\n- Every release is built and signed by our release pipeline; the launcher refuses any update that is not signed.\n- Windows installer in English and French, Cosmoria branding, one launcher window at a time.",
+  "pub_date": "2026-09-30T01:56:40Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN0hYMXZhaytXcU41cXkvaWg0Q2hSMUxKbEVCVVBOeFJJaGp1aXFBVG5NUmVuL09VRUxPRVRwNG5zelBCRFZkV3RkaEhoS0J0UnBPYzBKY2o2VVN0cWF6ZTc5UmNGOEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzMzMzk5CWZpbGU6Q29zbW9yaWEtTGF1bmNoZXItMS4wLjAteDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMC4wCnROZjR6R0pSUTZlWHAxQmZoQy9aOTZwTkJsbGsxWGo1UnlBOUN0d1BVQWxXblVJUEFLaUhCVEt6cStkSzlsME9mcHJDOFhTWUc3WEplOFUrZHhXdkFnPT0K",
+      "url": "https://github.com/ShyzosCorp/MC-Challenge-Release/releases/download/launcher-v1.0.0/Cosmoria-Launcher-1.0.0-x64-setup.exe"
+    }
+  }
+}
