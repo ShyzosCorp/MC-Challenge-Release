@@ -1,0 +1,435 @@
+{
+  "general": {
+    "comment": "General Settings",
+    "fe_at_max_rpm": {
+      "comment": [
+        "Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).",
+        "Default: 480",
+        "Range: > 0"
+      ],
+      "value": 480
+    },
+    "max_stress": {
+      "comment": [
+        "Max stress for the Alternator and Electric Motor (in SU at 256 RPM).",
+        "Default: 16384",
+        "Range: > 0"
+      ],
+      "value": 16384
+    },
+    "audio_enabled": {
+      "comment": "If audio should be enabled or not.",
+      "value": true
+    }
+  },
+  "electric_motor": {
+    "comment": "Electric Motor",
+    "motor_rpm_range": {
+      "comment": [
+        "Electric Motor min/max RPM.",
+        "Default: 256",
+        "Range: > 1"
+      ],
+      "value": 256
+    },
+    "motor_min_consumption": {
+      "comment": [
+        "Electric Motor minimum required energy consumption in FE/t.",
+        "Default: 8",
+        "Range: > 0"
+      ],
+      "value": 8
+    },
+    "motor_max_input": {
+      "comment": [
+        "Electric Motor max input in FE (Energy transfer not consumption).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "motor_capacity": {
+      "comment": [
+        "Electric Motor internal capacity in FE.",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    }
+  },
+  "electric_pump": {
+    "comment": "Electric Pump",
+    "pump_rpm_range": {
+      "comment": [
+        "Electric Pump min/max pump strength (equivalent to the Mechanical Pumps RPM).",
+        "Default: 256",
+        "Range: > 1"
+      ],
+      "value": 256
+    },
+    "pump_fe_at_max_rpm": {
+      "comment": [
+        "Electric Pump energy consumption in FE/t at max pump strength (256).",
+        "Default: 120",
+        "Range: > 1"
+      ],
+      "value": 120
+    },
+    "pump_max_input": {
+      "comment": [
+        "Electric Pump max input in FE (Energy transfer not consumption).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "pump_capacity": {
+      "comment": [
+        "Electric Pump internal capacity in FE.",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    }
+  },
+  "alternator": {
+    "comment": "Alternator",
+    "generator_max_output": {
+      "comment": [
+        "Alternator max input in FE (Energy transfer, not generation).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "generator_capacity": {
+      "comment": [
+        "Alternator internal capacity in FE.",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "generator_efficiency": {
+      "comment": [
+        "Alternator efficiency relative to base conversion rate.",
+        "Default: 0.75",
+        "Range: 0.01 ~ 1.0"
+      ],
+      "value": 0.75
+    }
+  },
+  "rolling_mill": {
+    "comment": "Rolling Mill",
+    "rolling_mill_processing_duration": {
+      "comment": [
+        "Rolling Mill duration in ticks.",
+        "Default: 120",
+        "Range: > 0"
+      ],
+      "value": 120
+    },
+    "rolling_mill_stress": {
+      "comment": [
+        "Rolling Mill base stress impact.",
+        "Default: 8",
+        "Range: 0 ~ 1024"
+      ],
+      "value": 8
+    }
+  },
+  "wires": {
+    "comment": "Wires",
+    "connector_network_internal_buffer": {
+      "comment": [
+        "The maximum stored amount in the connector network internal buffer.",
+        "Default: 80000",
+        "Range: > 80000"
+      ],
+      "value": 80000
+    },
+    "small_connector_max_input": {
+      "comment": [
+        "Small Connector max input in FE/t (Energy transfer).",
+        "Default: 1000",
+        "Range: > 0"
+      ],
+      "value": 1000
+    },
+    "small_connector_max_output": {
+      "comment": [
+        "Small Connector max output in FE/t (Energy transfer).",
+        "Default: 1000",
+        "Range: > 0"
+      ],
+      "value": 1000
+    },
+    "small_connector_wire_length": {
+      "comment": [
+        "Small Connector max wire length in blocks.",
+        "Default: 16",
+        "Range: 0 ~ 256"
+      ],
+      "value": 16
+    },
+    "small_light_connector_consumption": {
+      "comment": [
+        "Small Connector With Light energy consumption in FE/t.",
+        "Default: 1",
+        "Range: > 0"
+      ],
+      "value": 1
+    },
+    "large_connector_max_input": {
+      "comment": [
+        "Large Connector max input in FE/t (Energy transfer).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "large_connector_max_output": {
+      "comment": [
+        "Large Connector max output in FE/t (Energy transfer).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "large_connector_wire_length": {
+      "comment": [
+        "Large Connector max wire length in blocks.",
+        "Default: 32",
+        "Range: 0 ~ 256"
+      ],
+      "value": 32
+    },
+    "connector_ignore_face_check": {
+      "comment": "Ignore checking if block face can support connector.",
+      "value": true
+    },
+    "connector_allow_passive_io": {
+      "comment": "Allows blocks attached to a connector to freely pass energy to and from the connector network.",
+      "value": true
+    }
+  },
+  "accumulator": {
+    "comment": "Accumulator",
+    "accumulator_max_input": {
+      "comment": [
+        "Accumulator max input in FE/t (Energy transfer).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "accumulator_max_output": {
+      "comment": [
+        "Accumulator max output in FE/t (Energy transfer).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "accumulator_capacity": {
+      "comment": [
+        "Accumulator internal capacity per block in FE.",
+        "Default: 2000000",
+        "Range: > 0"
+      ],
+      "value": 2000000
+    },
+    "accumulator_max_height": {
+      "comment": [
+        "Accumulator max multiblock height.",
+        "Default: 5",
+        "Range: 1 ~ 8"
+      ],
+      "value": 5
+    },
+    "accumulator_max_width": {
+      "comment": [
+        "Accumulator max multiblock width.",
+        "Default: 3",
+        "Range: 1 ~ 8"
+      ],
+      "value": 3
+    }
+  },
+  "portable_energy_interface": {
+    "comment": "Portable Energy Interface",
+    "pei_max_input": {
+      "comment": [
+        "PEI max input in FE/t (Energy transfer).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "pei_max_output": {
+      "comment": [
+        "PEI max output in FE/t (Energy transfer).",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    }
+  },
+  "tesla_coil": {
+    "comment": "Tesla Coil",
+    "tesla_coil_max_input": {
+      "comment": [
+        "Tesla Coil max input in FE/t (Energy transfer).",
+        "Default: 10000",
+        "Range: > 0"
+      ],
+      "value": 10000
+    },
+    "tesla_coil_charge_rate": {
+      "comment": [
+        "Tesla Coil charge rate in FE/t.",
+        "Default: 5000",
+        "Range: > 0"
+      ],
+      "value": 5000
+    },
+    "tesla_coil_recipe_charge_rate": {
+      "comment": [
+        "Tesla Coil charge rate in FE/t for recipes.",
+        "Default: 2000",
+        "Range: > 0"
+      ],
+      "value": 2000
+    },
+    "tesla_coil_capacity": {
+      "comment": [
+        "Tesla Coil internal capacity in FE.",
+        "Default: 40000",
+        "Range: > 0"
+      ],
+      "value": 40000
+    },
+    "tesla_coil_hurt_energy_required": {
+      "comment": [
+        "Energy consumed when Tesla Coil is fired (in FE).",
+        "Default: 1000",
+        "Range: > 0"
+      ],
+      "value": 1000
+    },
+    "tesla_coil_hurt_range": {
+      "comment": [
+        "Hurt range (in blocks/meters).",
+        "Default: 3",
+        "Range: > 0"
+      ],
+      "value": 3
+    },
+    "tesla_coil_hurt_mob": {
+      "comment": [
+        "Damaged dealt to mobs when Tesla Coil is fired (in half hearts).",
+        "Default: 3",
+        "Range: > 0"
+      ],
+      "value": 3
+    },
+    "tesla_coil_effect_time_mob": {
+      "comment": [
+        "The duration of the Shocked effect for mobs (in ticks).",
+        "Default: 20",
+        "Range: > 0"
+      ],
+      "value": 20
+    },
+    "tesla_coil_hurt_player": {
+      "comment": [
+        "Damaged dealt to players when Tesla Coil is fired (in half hearts).",
+        "Default: 2",
+        "Range: > 0"
+      ],
+      "value": 2
+    },
+    "tesla_coil_effect_time_player": {
+      "comment": [
+        "The duration of the Shocked effect for players (in ticks).",
+        "Default: 20",
+        "Range: > 0"
+      ],
+      "value": 20
+    },
+    "tesla_coil_fire_cooldown": {
+      "comment": [
+        "Tesla Coil fire interval (in ticks).",
+        "Default: 20",
+        "Range: > 1"
+      ],
+      "value": 20
+    }
+  },
+  "liquid_blaze_burner": {
+    "comment": "Liquid Blaze Burner",
+    "liquid_blaze_burner_max_liquid_capacity": {
+      "comment": [
+        "Liquid Blaze Burner internal liquid storage capacity (in mB). A value less than 1000 prevents players from refilling with a bucket.",
+        "Default: 1000",
+        "Range: > 100"
+      ],
+      "value": 1000
+    },
+    "liquid_blaze_burner_max_heat_capacity": {
+      "comment": [
+        "Liquid Blaze Burner internal heat capacity (in ticks).",
+        "Default: 10000",
+        "Range: > 0"
+      ],
+      "value": 10000
+    }
+  },
+  "misc": {
+    "comment": "Misc",
+    "diamond_grit_sandpaper_uses": {
+      "comment": [
+        "Diamond Grit Sandpaper durability (number of uses).",
+        "Default: 1024",
+        "Range: > 3"
+      ],
+      "value": 1024
+    },
+    "barbed_wire_damage": {
+      "comment": [
+        "Barbed Wire Damage.",
+        "Default: 2.0",
+        "Range: 0.0 ~ 3.4028235E38"
+      ],
+      "value": 2.0
+    },
+    "amulet_effect_enabled": {
+      "comment": "If the effects of the amulets should be enabled or not.",
+      "value": true
+    },
+    "electrum_amulet_charge_rate": {
+      "comment": [
+        "Passive charge rate of the Electrum Amulet in average FE/t when held in main or offhand.",
+        "Default: 2",
+        "Range: > 0"
+      ],
+      "value": 2
+    },
+    "capacitor_capacity": {
+      "comment": [
+        "Maximum energy the Capacitor item can store in FE.",
+        "Default: 5000",
+        "Range: > 1"
+      ],
+      "value": 5000
+    },
+    "capacitor_charge_rate": {
+      "comment": [
+        "Max FE per transfer operation for the Capacitor item.",
+        "Default: 500",
+        "Range: > 1"
+      ],
+      "value": 500
+    }
+  }
+}

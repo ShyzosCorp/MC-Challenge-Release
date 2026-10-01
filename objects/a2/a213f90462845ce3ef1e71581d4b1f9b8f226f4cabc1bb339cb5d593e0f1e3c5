@@ -1,0 +1,16 @@
+{
+  "registerMissingTracks": {
+    "comment": [
+      "Register integration tracks for mods that are not present. Keep this setting the same on the server and clients; changing it requires a full restart.",
+      "[@cui:RequiresReload:both]"
+    ],
+    "value": true
+  },
+  "disableDatafixer": {
+    "comment": [
+      "Disable Steam 'n' Rails datafixers. Do not enable this config if your world contains pre-Create 0.5.1 monobogeys, because then they will be destroyed",
+      "[@cui:RequiresReload:both]"
+    ],
+    "value": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "networkOverlayEnabled": true,
+  "networkOverlayFlowDots": true,
+  "networkOverlayColor": "#3B82F6",
+  "networkOverlayAlpha": 191,
+  "alwaysDetailedTooltips": false,
+  "showEuNumbers": true,
+  "energyHudEnabled": true,
+  "drillHudEnabled": true,
+  "rootInspectionDim": 85,
+  "concentratorSchematicEnabled": true,
+  "upgradePanelDX": 0,
+  "upgradePanelDY": 0,
+  "statsPanelDX": 0,
+  "statsPanelDY": 0
+}

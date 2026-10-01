@@ -1,0 +1,7 @@
+# Configuration file for bettervillage
+
+# villages
+villages.enabled=false
+villages.salt=10387312
+villages.separation=20
+villages.spacing=45

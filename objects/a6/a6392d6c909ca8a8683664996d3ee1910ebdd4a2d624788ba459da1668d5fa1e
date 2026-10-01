@@ -1,0 +1,219 @@
+{
+  "enabled": {
+    "value": "ON"
+  },
+  "showHudFps": {
+    "value": "ON"
+  },
+  "downscale": {
+    "value": "OFF"
+  },
+  "fastFboBlit": {
+    "value": "ON"
+  },
+  "numberOfPasses": 3,
+  "maxFps": 60,
+  "screenMaxFps": 20,
+  "map": {
+    "hand": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "enhancedcelestials2core:lunar_tint": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "misc_overlays": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "crosshair": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "spectator_menu": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "armor_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "health_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "food_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "air_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "mount_health": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "info_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "experience_level": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "held_item_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "spectator_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "mob_effects": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "boss_bar": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "sleep": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "demo_timer": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "scoreboard": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "overlay_message": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "title_and_subtitle": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "chat": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "player_list": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "subtitles": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "architectury:render_hud": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "alaindustrial:root_inspection": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "alaindustrial:concentrator_assembly": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "alaindustrial:teleport_fade": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "alaindustrial:energy_pack_hud": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "alaindustrial:electric_drill_hud": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "creativecore:gui": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "chloride:fps": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "controlify:button_guide": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "craftedcore:hud_render": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "enhancedcelestials2core:debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "jade:main": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "toms_storage:configurator_hud": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "_unknown_": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    }
+  }
+}

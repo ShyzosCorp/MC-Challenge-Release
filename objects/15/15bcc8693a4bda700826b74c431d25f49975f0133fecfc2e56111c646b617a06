@@ -1,0 +1,96 @@
+{
+  "client": {
+    "comment": "Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!",
+    "showExtendedCouplerDebug": {
+      "comment": "Show extended debug info in coupler goggle overlay",
+      "value": false
+    },
+    "skipClientDerailing": {
+      "comment": "Skip clientside train derailing. This prevents stuttering when a train places tracks, but trains will not appear derailed when they crash",
+      "value": false
+    },
+    "useConductorSpyShader": {
+      "comment": "Use a scanline shader when spying through a conductor",
+      "value": true
+    },
+    "trackOverlayOffset": {
+      "comment": [
+        "Vertical offset for track overlays",
+        "Default: 0.0",
+        "Range: -256.0 ~ 256.0"
+      ],
+      "value": 0.0
+    },
+    "useDevCape": {
+      "comment": [
+        "Whether to actually apply the dev cape (ignored for non-devs)",
+        "This setting may require a relog to take effect"
+      ],
+      "value": true
+    },
+    "renderNormalCap": {
+      "comment": "Should the normal create conductor cap be rendered on top of the conductors existing hat?",
+      "value": true
+    },
+    "animatedFlywheels": {
+      "comment": "Should flywheels and blocks extending the FlywheelBlock class be animated when apart of trains?",
+      "value": true
+    },
+    "universalShadowWrench": {
+      "comment": "Allow all wrenches to auto-fill `/snr shadow_realm banish` when sneak-used, without requiring the tag ShadowHammer.",
+      "value": false
+    },
+    "smoke": {
+      "comment": "Smoke Settings",
+      "smokeType": {
+        "comment": [
+          "Smoke particle style",
+          "Allowed Values: VANILLA, OLD, CARTOON"
+        ],
+        "value": "CARTOON"
+      },
+      "old": {
+        "comment": "Old-style Smoke Settings",
+        "smokeLifetime": {
+          "comment": [
+            "[in Ticks]",
+            "Lifetime of smoke particles emitted by contraptions",
+            "Default: 500",
+            "Range: 20 ~ 1000"
+          ],
+          "value": 500
+        },
+        "smokePercentage": {
+          "comment": [
+            "Smoke emission rate on contraptions",
+            "Default: 0.75",
+            "Range: 0.0 ~ 10.0"
+          ],
+          "value": 0.75
+        },
+        "smokeQuality": {
+          "comment": [
+            "Smoke texture quality",
+            "Allowed Values: LOW, MEDIUM, HIGH, ULTRA"
+          ],
+          "value": "HIGH"
+        },
+        "thickerSmoke": {
+          "comment": "Thicker smoke (renders 2 extra layers per particle)",
+          "value": true
+        }
+      },
+      "cartoon": {
+        "comment": "Cartoon-style Smoke Settings",
+        "spawnFasterPuffs": {
+          "comment": "Spawn faster-rising small puffs of smoke on an interval",
+          "value": true
+        },
+        "spawnSteam": {
+          "comment": "Spawn steam on an interval",
+          "value": false
+        }
+      }
+    }
+  }
+}

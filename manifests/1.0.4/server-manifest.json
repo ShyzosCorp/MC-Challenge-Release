@@ -1,0 +1,2689 @@
+{
+  "schema": 1,
+  "product": "cosmoria-server",
+  "side": "server",
+  "version": "1.0.4",
+  "minecraft": "26.2",
+  "loader": {
+    "type": "fabric",
+    "version": "0.19.5",
+    "installer": "1.1.0"
+  },
+  "java": {
+    "major": 25
+  },
+  "launch": {
+    "jar": "server.jar"
+  },
+  "source": {
+    "format": "cosmoria-pack",
+    "format_version": 4,
+    "manifest_sha256": "a8951c9ffdde961d24f106bfb27ad81cf9145ed0691f2d39456bb5b4a5c9a82b",
+    "zip_sha256": "8cb63125ed07ec28bedad42a814c1f9cb9f6f87da7f3bf2518405b56ebe75c6c",
+    "content_sha256": "804410cb6b59538ab65419358f276543dafc022b234c94070ab23518fc9c2417",
+    "tool_version": "3.2.2",
+    "validation": "mc-tools-dedicated-server-smoke-pass"
+  },
+  "files": [
+    {
+      "path": "server.jar",
+      "kind": "loader",
+      "sha256": "f5e6bab42403b04207436d892e82a3c5d90fef51e68b26ab7621ef3725f4d0ff",
+      "size": 179024
+    },
+    {
+      "path": "mods/AttributeFix-fabric-MC26.2-26.2.0.1.jar",
+      "kind": "mod",
+      "sha256": "a8b70729ac025ed03b25d4aea35b10df463f09525c60d79c1eba9093d15d811f",
+      "size": 20871,
+      "id": "attributefix",
+      "name": "AttributeFix",
+      "version": "26.2.0.1"
+    },
+    {
+      "path": "mods/BetterNether-26.2.2-fabric.jar",
+      "kind": "mod",
+      "sha256": "422a8efe70b4c73f21163adca1cc81d52f1d76537006a467b1a4cb2c2467c40e",
+      "size": 27144623,
+      "id": "betternether",
+      "name": "Better Nether",
+      "version": "26.2.2"
+    },
+    {
+      "path": "mods/Clumps-fabric-26.2-26.2.1.jar",
+      "kind": "mod",
+      "sha256": "dc9544190abfb65a3c9ddc5dad1523c9dfc5a732344f528d908b950894398e8c",
+      "size": 19950,
+      "id": "clumps",
+      "name": "Clumps",
+      "version": "26.2.1"
+    },
+    {
+      "path": "mods/CreativeCore_FABRIC_v2.14.16_mc26.2.jar",
+      "kind": "mod",
+      "sha256": "8bf79bc2940c4272aa954a561831a36cfc70dfe7c26db16f8daf222e39b9ce77",
+      "size": 1396350,
+      "id": "creativecore",
+      "name": "CreativeCore",
+      "version": "2.14.16"
+    },
+    {
+      "path": "mods/Enhanced-Celestials-2-Core-Fabric-26.2-4.0.3.3.jar",
+      "kind": "mod",
+      "sha256": "8a6aae4a2f047e0a758662c40915ee4b47309a78b668dbe6479b99f23f56278b",
+      "size": 1114466,
+      "id": "enhancedcelestials2core",
+      "name": "Enhanced Celestials 2: Core",
+      "version": "4.0.3.3"
+    },
+    {
+      "path": "mods/Enhanced-Celestials-2-Default-Lunar-Events-Fabric-26.2-4.0.0.6.jar",
+      "kind": "mod",
+      "sha256": "5d69fe255eaa21d6bdd29462d7a5e8cbe612c43c571a8e84bd7f737c2eee978a",
+      "size": 1509468,
+      "id": "enhancedcelestials2defaultlunarevents",
+      "name": "Enhanced Celestials 2: Default Lunar Events",
+      "version": "4.0.0.6"
+    },
+    {
+      "path": "mods/ExpOre-26.2-0.1.jar",
+      "kind": "mod",
+      "sha256": "a83f3a4940eefcbb4f36bfaf582b93ce41a38a9b0e3106c649f4ba8f239a17a4",
+      "size": 35697,
+      "id": "expore",
+      "name": "ExpOre",
+      "version": "26.2-0.1"
+    },
+    {
+      "path": "mods/FastItemFrames-v26.2.1-mc26.2.x-Fabric.jar",
+      "kind": "mod",
+      "sha256": "b324bb47f622a53228fb3ddeb0e8f9c208583179abd3ade46f5090b5ecc04767",
+      "size": 100440,
+      "id": "fastitemframes",
+      "name": "Fast Item Frames",
+      "version": "26.2.1"
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+      "kind": "mod",
+      "sha256": "1b4b17fc4150481447201152604688c74726d6631c9a626dd21f2c5e2b3df1ac",
+      "size": 609550,
+      "id": "forgeconfigapiport",
+      "name": "Forge Config API Port",
+      "version": "26.2.1"
+    },
+    {
+      "path": "mods/ImmersiveOres-26.2-0.2.jar",
+      "kind": "mod",
+      "sha256": "9194ee63c3c8c8e5a0350225618634b25465f4bffcb7ba42c34b013932078595",
+      "size": 544454,
+      "id": "immersiveores",
+      "name": "ImmersiveOres",
+      "version": "26.2-0.2"
+    },
+    {
+      "path": "mods/IronChest-1.0+fabric-1.17.1.jar",
+      "kind": "mod",
+      "sha256": "3cb2c34b41cb755d8605dd1b087cb8d6acdd02f99cdeca96511f23c48eb398c3",
+      "size": 436487,
+      "id": "ironchest",
+      "name": "Iron Chests",
+      "version": "1.2.0+fabric-1.17.1"
+    },
+    {
+      "path": "mods/IronChests-2.0.8.jar",
+      "kind": "mod",
+      "sha256": "4e1db65f122f16c8b91cb52d81d6fcfe2281ea3ef1f7c3820ff554bcbbd1d4c7",
+      "size": 253094,
+      "id": "ironchest",
+      "name": "Iron Chests",
+      "version": "2.0.8"
+    },
+    {
+      "path": "mods/Jade-mc26.2-Fabric-26.2.11.jar",
+      "kind": "mod",
+      "sha256": "ffe5d2e83a531c3fbe75ad54095e6a9eafc73a38d5827b4c90bedb4b03618b87",
+      "size": 1043764,
+      "id": "jade",
+      "name": "Jade",
+      "version": "26.2.11+fabric"
+    },
+    {
+      "path": "mods/Ksyxis-1.4.5.jar",
+      "kind": "mod",
+      "sha256": "a08ca6d645e500d50edcffaefa5e3c182a86e8128f9f2981eca26f2a8f6e1d02",
+      "size": 23303,
+      "id": "ksyxis",
+      "name": "Ksyxis",
+      "version": "1.4.5"
+    },
+    {
+      "path": "mods/MutantsZombies-1.3.3-Fabric-mc26.1.jar",
+      "kind": "mod",
+      "sha256": "f02b993d63bbefcba0fbd29801e2e6139c22700b4fa7d5f75885118ce81b63c5",
+      "size": 1444329,
+      "id": "mutantszombies",
+      "name": "Mutants and Zombies",
+      "version": "1.3.3-Fabric-mc26.1"
+    },
+    {
+      "path": "mods/NoChatReports-FABRIC-26.2-v2.20.2.jar",
+      "kind": "mod",
+      "sha256": "93c761e9fb7d76269a0d5b9807e19db164b3a2fd0b8ebd0550fe94f832cf396f",
+      "size": 239602,
+      "id": "nochatreports",
+      "name": "No Chat Reports",
+      "version": "26.2-v2.20.2"
+    },
+    {
+      "path": "mods/PacketFixer-fabric-3.3.6.jar",
+      "kind": "mod",
+      "sha256": "bc7b95364d0e5e2c38b042ae2cc0ce509330f1081eb964d4f310d0cde27fa7f4",
+      "size": 31156,
+      "id": "packetfixer",
+      "name": "Packet Fixer",
+      "version": "3.3.6"
+    },
+    {
+      "path": "mods/PlayerAnimationLibMerged-1.2.6+mc.26.2.jar",
+      "kind": "mod",
+      "sha256": "97af3288dd39643bf3607bf9ff5c3293022793559236586a6783fe71dd66e6bd",
+      "size": 419757,
+      "id": "player_animation_library",
+      "name": "Player Animation Library",
+      "version": "1.2.6+mc.26.2"
+    },
+    {
+      "path": "mods/PrickleMC-fabric-MC26.2-26.2.0.3.jar",
+      "kind": "mod",
+      "sha256": "adb871854e5596a6d10593b13634622801b202b18d0eae694ff3a5a50951dc85",
+      "size": 84889,
+      "id": "prickle",
+      "name": "PrickleMC",
+      "version": "26.2.0.3"
+    },
+    {
+      "path": "mods/PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar",
+      "kind": "mod",
+      "sha256": "f084097eb65928136ac12512249822696e81695929ad859a93d1a8fba0d94765",
+      "size": 1153533,
+      "id": "puzzleslib",
+      "name": "Puzzles Lib",
+      "version": "26.2.4"
+    },
+    {
+      "path": "mods/ResourcefulConfig-5.0.0.jar",
+      "kind": "mod",
+      "sha256": "e1f3138849b7ec68d029ba07a8158e9bec4032c02f20c3999fe335c638fc8d89",
+      "size": 443979,
+      "id": "resourcefulconfig",
+      "name": "Resourcefulconfig",
+      "version": "5.0.0"
+    },
+    {
+      "path": "mods/RoughlyEnoughItems-26.2.820.jar",
+      "kind": "mod",
+      "sha256": "9ba9d2a31531759549924064f33d3d45af342e7246f877efb8cee9f75f6ddaa9",
+      "size": 2419949,
+      "id": "roughlyenoughitems",
+      "name": "Roughly Enough Items",
+      "version": "26.2.820"
+    },
+    {
+      "path": "mods/SNR.FLY-STABLE-1.2.2.jar",
+      "kind": "mod",
+      "sha256": "33c87d5a7da0d468d3b6c0e99f726b835c63b693e7447fdaeca5e1f204caab84",
+      "size": 26367292,
+      "id": "railways",
+      "name": "Create: Steam 'n' Rails",
+      "version": "SNR.FLY-STABLE-1.2.2+fabric-mc26.2"
+    },
+    {
+      "path": "mods/ScalableLux-0.2.1+fabric.2b08348-all.jar",
+      "kind": "mod",
+      "sha256": "b8c2807ec1ac3e7e87ff3dc2c2cfd83abbb5d283b35a8a1cb71a34d96f1620ba",
+      "size": 183405,
+      "id": "scalablelux",
+      "name": "ScalableLux",
+      "version": "0.2.1+fabric.2b08348"
+    },
+    {
+      "path": "mods/TerraBlender-fabric-26.2-26.2.0.0.2.jar",
+      "kind": "mod",
+      "sha256": "dce5c50af4c87d847c06a374e38adf9d2cbb0684aee866aafbae0e44e5599782",
+      "size": 357527,
+      "id": "terrablender",
+      "name": "TerraBlender",
+      "version": "26.2.0.0.2"
+    },
+    {
+      "path": "mods/UndeadNights-2.2.5-Fabric-mc26.2.jar",
+      "kind": "mod",
+      "sha256": "a5d389893bf4be4c22c144c2dc55bc3b0e8661f302e101f82b2d3e45975242e7",
+      "size": 1396218,
+      "id": "undeadnights",
+      "name": "UndeadNights",
+      "version": "2.2.5-Fabric-mc26.2"
+    },
+    {
+      "path": "mods/VisualWorkbench-v26.2.1-mc26.2.x-Fabric.jar",
+      "kind": "mod",
+      "sha256": "550932bc8bcceb9f88daf1e7e57ec7af39a7571da7b6b88120977090eae6c72b",
+      "size": 67439,
+      "id": "visualworkbench",
+      "name": "Visual Workbench",
+      "version": "26.2.1"
+    },
+    {
+      "path": "mods/[Fabric] More Metals 26.2.0.6.jar",
+      "kind": "mod",
+      "sha256": "e2c0697fbb37ad7fa55898a246b3935a26a3e19adeee01dbaaf71fe7ea4a10af",
+      "size": 686265,
+      "id": "tegmoremetals",
+      "name": "TheElementGuy's More Metals and Ores",
+      "version": "26.2.0.6"
+    },
+    {
+      "path": "mods/alaindustrial-fabric-26.2-0.1.194.jar",
+      "kind": "mod",
+      "sha256": "0ccbd33fd0f71fd1220ade7688402563b4812a039b55f9580d77479f765adf35",
+      "size": 7020508,
+      "id": "alaindustrial",
+      "name": "Ala Industrial",
+      "version": "0.1.194"
+    },
+    {
+      "path": "mods/almanac-fabric-26.2-1.26.7.3.jar",
+      "kind": "mod",
+      "sha256": "32ee09cf26d435946370579a1fcc0db758e4eee62346c1d77f0f741daf0d800a",
+      "size": 1029133,
+      "id": "almanac",
+      "name": "Almanac",
+      "version": "1.26.7.3"
+    },
+    {
+      "path": "mods/appleskin-fabric-mc26.2-3.0.10.jar",
+      "kind": "mod",
+      "sha256": "e92f4d28973aec7ba9dbbfa74d163a1fadab0288fb3482247eb443cf03aa2178",
+      "size": 181627,
+      "id": "appleskin",
+      "name": "AppleSkin",
+      "version": "3.0.10+mc26.2"
+    },
+    {
+      "path": "mods/architectury-fabric-21.1.11.jar",
+      "kind": "mod",
+      "sha256": "a82d81e14a3766a5afbb3ea2bd82e748962d5f1a8ce690f8b6e23f64f0afd47f",
+      "size": 624051,
+      "id": "architectury",
+      "name": "Architectury",
+      "version": "21.1.11"
+    },
+    {
+      "path": "mods/armor_model_api-fabric-1.1.2+26.2.jar",
+      "kind": "mod",
+      "sha256": "f0bf76cdd6f5e62d340813180a9bd0a2f5c754a614259ca74cbb6e1df25337e9",
+      "size": 100413,
+      "id": "armor_model_api",
+      "name": "Armor Model API",
+      "version": "1.1.2+26.2"
+    },
+    {
+      "path": "mods/armory-fabric-1.5.3.003+26.2.jar",
+      "kind": "mod",
+      "sha256": "09652e23ac243ca3569449343bb7bb815ff2fa4ee08f509be3c4ac73a36bc09e",
+      "size": 694516,
+      "id": "armory_rpgs",
+      "name": "Armory (RPG Series)",
+      "version": "1.5.3.003+26.2"
+    },
+    {
+      "path": "mods/arsenal-fabric-1.5.1+26.2.jar",
+      "kind": "mod",
+      "sha256": "a0f34e5a3b35ae0c0acd5ba4366c2fcc6c6497dbb329812b315c39e283a8a6ff",
+      "size": 1209707,
+      "id": "arsenal",
+      "name": "Arsenal (RPG Series)",
+      "version": "1.5.1+26.2"
+    },
+    {
+      "path": "mods/awesomedungeon-fabric-26.2-4.0.0.jar",
+      "kind": "mod",
+      "sha256": "5bbceac2537eeef6d645e731242f9dfed699be542a949e3ccfc0065d112da1ef",
+      "size": 397384,
+      "id": "awesomedungeon",
+      "name": "Awesome Dungeon",
+      "version": "4.0.0"
+    },
+    {
+      "path": "mods/awesomedungeonocean-fabric-26.2-4.0.0.jar",
+      "kind": "mod",
+      "sha256": "6f10039285b30acd71777453eed5df2f3d27c5ffbe126300b8ee86c1a21f01fb",
+      "size": 315950,
+      "id": "awesomedungeonocean",
+      "name": "Awesome Dungeon Ocean",
+      "version": "4.0.0"
+    },
+    {
+      "path": "mods/badpackets-fabric-0.12.2.jar",
+      "kind": "mod",
+      "sha256": "289581cf7d3920903fa2f7ab2dd4f7612192e6865845af89e83fd345e2c1ada0",
+      "size": 54465,
+      "id": "badpackets",
+      "name": "Bad Packets",
+      "version": "0.12.2"
+    },
+    {
+      "path": "mods/balm-fabric-26.2-26.2.0.9.jar",
+      "kind": "mod",
+      "sha256": "e7d9572d1edecce9e10073ac7d8daaaf61b847162587330eca6472b3177652cb",
+      "size": 1196564,
+      "id": "balm",
+      "name": "Balm",
+      "version": "26.2.0.9"
+    },
+    {
+      "path": "mods/bclib-26.2.2-fabric.jar",
+      "kind": "mod",
+      "sha256": "e155cb8a78d421801cbc1700696870a9645b9da7cba2c2875ce035e63cfee22e",
+      "size": 1529716,
+      "id": "bclib",
+      "name": "BCLib",
+      "version": "26.2.2"
+    },
+    {
+      "path": "mods/better-end-26.2.4-fabric.jar",
+      "kind": "mod",
+      "sha256": "a3067b0befadf7cea79103933584a737ab007df40e84df0ea1c26a10b7c55d7d",
+      "size": 98261364,
+      "id": "betterend",
+      "name": "Better End",
+      "version": "26.2.4"
+    },
+    {
+      "path": "mods/bettercombat-fabric-3.2.2+26.2.jar",
+      "kind": "mod",
+      "sha256": "cce827992f517b181bc25c4f6c35e2c75818d29fcdbea90c3838704364b04639",
+      "size": 930628,
+      "id": "bettercombat",
+      "name": "Better Combat",
+      "version": "3.2.2"
+    },
+    {
+      "path": "mods/bettervillage-fabric-26.2-4.0.0.jar",
+      "kind": "mod",
+      "sha256": "1498996f5f94412a2e4f8789e4a124d55d25781cd6a41db14c62f2793685dca9",
+      "size": 2271890,
+      "id": "bettervillage",
+      "name": "Better Villages",
+      "version": "4.0.0"
+    },
+    {
+      "path": "mods/buffmobs-3.3.3+mc26.1-fabric.jar",
+      "kind": "mod",
+      "sha256": "5b1960779278e92128309eabe1cb22542c797239ffc7dcedf17c6c2f0db164f1",
+      "size": 138147,
+      "id": "buffmobs",
+      "name": "BuffMobs",
+      "version": "3.3.3+mc26.1-fabric"
+    },
+    {
+      "path": "mods/bundle-api-fabric-4.0.0+26.2.jar",
+      "kind": "mod",
+      "sha256": "b5fd743a9ceb95a6a128918d7fab312741cd2dd77941e79fa352bac2538ff1cc",
+      "size": 109887,
+      "id": "bundleapi",
+      "name": "Bundle API",
+      "version": "4.0.0+26.2"
+    },
+    {
+      "path": "mods/c2me-fabric-mc26.2-0.4.2-alpha.0.55.jar",
+      "kind": "mod",
+      "sha256": "95cec3f50aa45e2b3823e6f0c6403e2bff1267acdeef4ef9401b5a43488be9ca",
+      "size": 3842546,
+      "id": "c2me",
+      "name": "Concurrent Chunk Management Engine",
+      "version": "0.4.2-alpha.0.55+26.2"
+    },
+    {
+      "path": "mods/cloth-config-26.2.155.jar",
+      "kind": "mod",
+      "sha256": "def4be7639cd66704f7e304d658ea0f6bf490fb4a6eaa2dbf18ec2c3999d6349",
+      "size": 1135186,
+      "id": "cloth-config",
+      "name": "Cloth Config v26.2",
+      "version": "26.2.155"
+    },
+    {
+      "path": "mods/controlify-3.5.3+mc26.2-universal.jar",
+      "kind": "mod",
+      "sha256": "9715da24f6a13bb34e5d358f72eb6bb1f68c6a9e792b350c294d81a93f819a63",
+      "size": 6411915,
+      "id": "controlify",
+      "name": "Controlify",
+      "version": "3.5.3+mc26.2"
+    },
+    {
+      "path": "mods/craftedcore-fabric-8.2.1.jar",
+      "kind": "mod",
+      "sha256": "d88910cb394c1df1b594ac7ddf1e11bec183df10c82ee2fe7b1ea0c5defe6be7",
+      "size": 798183,
+      "id": "craftedcore",
+      "name": "CraftedCore",
+      "version": "8.2.1"
+    },
+    {
+      "path": "mods/crashexploitfixer-fabric-2.0.0+26.1.2.jar",
+      "kind": "mod",
+      "sha256": "f23d3d7fd64e2a1fe1eaccda56f5a9c34392a3592fc8baa536e3bb444ac2f58e",
+      "size": 701216,
+      "id": "crashexploitfixer",
+      "name": "CrashExploitFixer",
+      "version": "2.0.0"
+    },
+    {
+      "path": "mods/create-fly-26.2-rc-2-6.0.9-1.jar",
+      "kind": "mod",
+      "sha256": "d9c6cb6116d5caa1174a289ecd7d3cdd463ccef6e8db1249ab0bcfcd8c935870",
+      "size": 21412089,
+      "id": "create",
+      "name": "Create Fly",
+      "version": "6.0.9-1"
+    },
+    {
+      "path": "mods/create_ultimate_factory-2.2.4-fabric-26.2.jar",
+      "kind": "mod",
+      "sha256": "bc5312ea8f3738b07095639256bf9538d16379a19a5c41748ffcc434226dc88f",
+      "size": 264959,
+      "id": "create_ultimate_factory",
+      "name": "Create: Ultimate Factory",
+      "version": "2.2.4"
+    },
+    {
+      "path": "mods/createaddition-1.7.0-fly.26.2-beta.13+fabric-mc26.2.jar",
+      "kind": "mod",
+      "sha256": "cb9375c45285852e2980a554e74b0987b54541f50c3ab5b8f168ae919b1f5e7f",
+      "size": 1990572,
+      "id": "createaddition",
+      "name": "Create Fly: Crafts & Additions",
+      "version": "1.7.0-fly.26.2-beta.13+fabric-mc26.2"
+    },
+    {
+      "path": "mods/critical_strike-fabric-1.0.6+26.2.jar",
+      "kind": "mod",
+      "sha256": "69872634bcd03e8cb0c8d39d5371a83693b9444a5305f63be972f63de3791234",
+      "size": 157427,
+      "id": "critical_strike",
+      "name": "Critical Strike",
+      "version": "1.0.6+26.2"
+    },
+    {
+      "path": "mods/dataanchor-fabric-26.2-5.0.0.4.jar",
+      "kind": "mod",
+      "sha256": "98a7c9b4d5f784198ff5531b9eb216eea6c24fffa431e78d1c888c92b72ad43e",
+      "size": 132344,
+      "id": "dataanchor",
+      "name": "Data Anchor",
+      "version": "5.0.0.4"
+    },
+    {
+      "path": "mods/debugify-26.2.0.1.jar",
+      "kind": "mod",
+      "sha256": "60967c6beb1336d37db707e284697de68dbaecf6713a6d7de02549c7c2519943",
+      "size": 371602,
+      "id": "debugify",
+      "name": "Debugify",
+      "version": "26.2.0.1"
+    },
+    {
+      "path": "mods/disconnect-packet-fix-fabric-2.2.0.jar",
+      "kind": "mod",
+      "sha256": "66af2e55324805169d2634a8c2a8a2b6f8fb935fa378084159918e8107633c77",
+      "size": 6955,
+      "id": "disconnect-packet-fix",
+      "name": "Disconnect Packet Fix",
+      "version": "2.2.0"
+    },
+    {
+      "path": "mods/drippyloadingscreen_fabric_3.1.5_MC_26.2.jar",
+      "kind": "mod",
+      "sha256": "a6fa9b80d54f0c9940ee8f21c0f9f2d0f80259072497d158513d769a5ebd6f24",
+      "size": 287536,
+      "id": "drippyloadingscreen",
+      "name": "Drippy Loading Screen",
+      "version": "3.1.5"
+    },
+    {
+      "path": "mods/energizedpower-3.0.1+26.2.x-fabric.jar",
+      "kind": "mod",
+      "sha256": "dbcdacde3881b5866d1304a1066e65163ef1041dbcea6ef8c2d0f048c0f2bd11",
+      "size": 6340617,
+      "id": "energizedpower",
+      "name": "Energized Power",
+      "version": "3.0.1+26.2.x-fabric"
+    },
+    {
+      "path": "mods/entityculling-fabric-1.11.2-mc26.2.jar",
+      "kind": "mod",
+      "sha256": "ed48546f952edfbb4673aa44968650cc5966a573d2e64e727f58e11cbc36cf31",
+      "size": 1508311,
+      "id": "entityculling",
+      "name": "EntityCulling",
+      "version": "1.11.2"
+    },
+    {
+      "path": "mods/fabric-api-0.161.0+26.2.jar",
+      "kind": "mod",
+      "sha256": "e5b858ceb13290c274e31cb888ff5a1a40cb91067e7ffab0b5b775aec51e216a",
+      "size": 2566123,
+      "id": "fabric-api",
+      "name": "Fabric API",
+      "version": "0.161.0+26.2"
+    },
+    {
+      "path": "mods/fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+      "kind": "mod",
+      "sha256": "620c2709be2a262b837cf976f6f85f6eda80a56af2ba4242e0bdc83a60fee7a5",
+      "size": 8142858,
+      "id": "fabric-language-kotlin",
+      "name": "Fabric Language Kotlin",
+      "version": "1.14.1+kotlin.2.4.20"
+    },
+    {
+      "path": "mods/fancymenu_fabric_3.9.14_MC_26.2.jar",
+      "kind": "mod",
+      "sha256": "3b1ac80baa6594ab801f6f7c80569e6c398ea46e1bfcd366f7eb3ee322213eba",
+      "size": 26301936,
+      "id": "fancymenu",
+      "name": "FancyMenu",
+      "version": "3.9.14"
+    },
+    {
+      "path": "mods/ferritecore-9.0.0-fabric.jar",
+      "kind": "mod",
+      "sha256": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22",
+      "size": 72677,
+      "id": "ferritecore",
+      "name": "FerriteCore",
+      "version": "9.0.0"
+    },
+    {
+      "path": "mods/furnace-overlay-1.4.3.jar",
+      "kind": "mod",
+      "sha256": "53007089bf2dba8abd09301e36182db19569047b8ae7caa256a1a5410502a3af",
+      "size": 202652,
+      "id": "furnace-overlay",
+      "name": "Furnace Overlay",
+      "version": "1.4.3"
+    },
+    {
+      "path": "mods/fzzy_config-0.7.7+26.2.jar",
+      "kind": "mod",
+      "sha256": "05a26670aab40fa301841873288e7a0521d605cdf2a9c4f06b6a13feda477918",
+      "size": 2395514,
+      "id": "fzzy_config",
+      "name": "Fzzy Config",
+      "version": "0.7.7+26.2"
+    },
+    {
+      "path": "mods/gazebo-fabric-2.2.0+26.2.jar",
+      "kind": "mod",
+      "sha256": "0487fe1d3caad31cbf09764031ac75ccbbfba75706e2d15ae70a86faf6e8878d",
+      "size": 111925,
+      "id": "gazebo",
+      "name": "Gazebos (RPG Series)",
+      "version": "2.2.0+26.2"
+    },
+    {
+      "path": "mods/immersive_armors-1.8.2+26.2-fabric.jar",
+      "kind": "mod",
+      "sha256": "e005d4644b7dbb6ccda098f001fd4abbf92392bb5e897d5d8c52c6cc553a506a",
+      "size": 1295379,
+      "id": "immersive_armors",
+      "name": "Immersive Armors",
+      "version": "1.8.2+26.2"
+    },
+    {
+      "path": "mods/immersive_optimization-fabric-26.2-0.2.0.jar",
+      "kind": "mod",
+      "sha256": "c2de58954cc0d202dd22bd4dcd6198f5f8d30d8e5c223bcbc63ed6e6e74bbc81",
+      "size": 56255,
+      "id": "immersive_optimization",
+      "name": "Immersive Optimization",
+      "version": "0.2.0"
+    },
+    {
+      "path": "mods/ironfurnacesfabric-26.2-1.0.0.jar",
+      "kind": "mod",
+      "sha256": "d19f5b3afc34533059c5c342db818c2b5c3cf6732f6b3895ace19fc1eea25864",
+      "size": 605028,
+      "id": "ironfurnaces",
+      "name": "Iron Furnaces",
+      "version": "1.0.0"
+    },
+    {
+      "path": "mods/jewelry-fabric-2.5.1+26.2.jar",
+      "kind": "mod",
+      "sha256": "ba780f5f9c13858e8bcc4d839b99c4b4d7517ec2d60fc86424dd2251e872bb8a",
+      "size": 677299,
+      "id": "jewelry",
+      "name": "Jewelry (RPG Series)",
+      "version": "2.5.1+26.2"
+    },
+    {
+      "path": "mods/konkrete_fabric_1.11.1_MC_26.2.jar",
+      "kind": "mod",
+      "sha256": "b610cf9d1175fbbf0f1092a067f6d87e514f41fb0a3e5ae61fb53e3a8d1e4692",
+      "size": 764987,
+      "id": "konkrete",
+      "name": "Konkrete",
+      "version": "1.11.1"
+    },
+    {
+      "path": "mods/krypton-0.3.1.jar",
+      "kind": "mod",
+      "sha256": "5ea8901561973d29e51e751469d52d92100f348ab461e1186f67012e93420c48",
+      "size": 268842,
+      "id": "krypton",
+      "name": "Krypton",
+      "version": "0.3.1"
+    },
+    {
+      "path": "mods/letmedespawn-fabric-26.2-1.26.9.1.jar",
+      "kind": "mod",
+      "sha256": "b1462a1aad62ab4673be886659f7c6ddda778b79a814336c3828ba35d19e0439",
+      "size": 23791,
+      "id": "letmedespawn",
+      "name": "LetMeDespawn",
+      "version": "1.26.9.1"
+    },
+    {
+      "path": "mods/libraryferret-fabric-26.2-5.0.0.jar",
+      "kind": "mod",
+      "sha256": "b94a00626b78c2daee7f97df25a3454e9ab96e00d2ce3427a594fb53c2c90284",
+      "size": 128331,
+      "id": "libraryferret",
+      "name": "Library Ferret",
+      "version": "5.0.0"
+    },
+    {
+      "path": "mods/lithium-fabric-0.25.3+mc26.2.jar",
+      "kind": "mod",
+      "sha256": "fdde92e238e8075f89ad7f701f2a3d5854af88ba9a67657184a4407b104ac563",
+      "size": 912850,
+      "id": "lithium",
+      "name": "Lithium",
+      "version": "0.25.3+mc26.2"
+    },
+    {
+      "path": "mods/lootr-fabric-26.2-1.24.41.124.jar",
+      "kind": "mod",
+      "sha256": "6669f8415aa4280eae0959d6e8cac0bb0dab02dbfd3efd6a153c1fad02e80a6b",
+      "size": 1584138,
+      "id": "lootr",
+      "name": "Lootr",
+      "version": "1.24.41.124"
+    },
+    {
+      "path": "mods/mcw-bridges-3.1.2-mc26.2fabric.jar",
+      "kind": "mod",
+      "sha256": "b52ef6c4bea1dee7315d7fe80fa311703176cc5bb04ab91052f7082b0795fec2",
+      "size": 719851,
+      "id": "mcwbridges",
+      "name": "Macaw's Bridges",
+      "version": "3.1.2"
+    },
+    {
+      "path": "mods/mcw-doors-1.1.5-mc26.2fabric.jar",
+      "kind": "mod",
+      "sha256": "00e431d662489fe4a145f0e471837e1cd2bc9bcce5abe3f9f9941230765b2ded",
+      "size": 1451361,
+      "id": "mcwdoors",
+      "name": "Macaw's Doors",
+      "version": "1.1.5"
+    },
+    {
+      "path": "mods/mcw-fences-1.2.1-mc26.2fabric.jar",
+      "kind": "mod",
+      "sha256": "d21843f9195f20e50bd4e938b00a94107c98adabc62fb5b1e6f431a2560a4dad",
+      "size": 705102,
+      "id": "mcwfences",
+      "name": "Macaw's Fences and Walls",
+      "version": "1.2.1"
+    },
+    {
+      "path": "mods/mcw-roofs-2.3.3-mc26.2fabric.jar",
+      "kind": "mod",
+      "sha256": "bbd7dabc28c2071d587d44b7f131e8f478b4ad3577121e03e02e4baa8f3eb1e6",
+      "size": 1925146,
+      "id": "mcwroofs",
+      "name": "Macaw's Roofs",
+      "version": "2.3.2"
+    },
+    {
+      "path": "mods/mcw-stairs-1.0.2-mc26.2fabric.jar",
+      "kind": "mod",
+      "sha256": "6c3166b325af8898a1a4b9be59cd28dbe9c787a88797304cfdab464ee84e6622",
+      "size": 568242,
+      "id": "mcwstairs",
+      "name": "Macaw's Stairs and Balconies",
+      "version": "1.0.2"
+    },
+    {
+      "path": "mods/mcw-windows-2.4.2-mc26.2fabric.jar",
+      "kind": "mod",
+      "sha256": "40ba9c55f191f8bd4758293683ed2bcf6d0c76c8f54f9fc8a0dccabdbcfd36ad",
+      "size": 1402302,
+      "id": "mcwwindows",
+      "name": "Macaw's Windows",
+      "version": "2.4.2"
+    },
+    {
+      "path": "mods/melody_fabric_1.0.17_MC_26.2.jar",
+      "kind": "mod",
+      "sha256": "7f0c85662630afbce940d1afae87414b3b355aaf6f2cee0602f1fc78323d0c60",
+      "size": 227497,
+      "id": "melody",
+      "name": "Melody",
+      "version": "1.0.17"
+    },
+    {
+      "path": "mods/modernfix-5.27.19-build.2.jar",
+      "kind": "mod",
+      "sha256": "1bb69de32ca83f27f945e238ae4781795e42d6b5576ca5e6ee18b147fb02a2fd",
+      "size": 1173963,
+      "id": "modernfix",
+      "name": "ModernFix",
+      "version": "5.27.19-build.2"
+    },
+    {
+      "path": "mods/mru-1.0.41+26.2-fabric.jar",
+      "kind": "mod",
+      "sha256": "e7fd51a3f35a5d17d8eefd3b4ee64d07d82a926f3235703ec97bc356e3965ca3",
+      "size": 155863,
+      "id": "mru",
+      "name": "MRU",
+      "version": "1.0.41+26.2"
+    },
+    {
+      "path": "mods/mythicupgrades-fabric-26.2-5.1.1.jar",
+      "kind": "mod",
+      "sha256": "141bbb7e9d188ea7f0a872eaa4b41d067d31e17004443bbb51fa47f285520882",
+      "size": 2398484,
+      "id": "mythicupgrades",
+      "name": "Mythic Upgrades",
+      "version": "5.1.1"
+    },
+    {
+      "path": "mods/noisium-fabric-2.8.5+mc26.2-pre-2.jar",
+      "kind": "mod",
+      "sha256": "d7920f42e134187bccdb47785c923c91c68e83b7507ae12e612ddfb14ee078f5",
+      "size": 68959,
+      "id": "noisium",
+      "name": "Noisium",
+      "version": "2.8.5+mc26.2-pre-2"
+    },
+    {
+      "path": "mods/notenoughanimations-fabric-1.12.5-mc26.2.jar",
+      "kind": "mod",
+      "sha256": "8ef1069d4639299e473077ded3f5a6b22045e581e8a9fd51bbc470fc50675c9e",
+      "size": 1863477,
+      "id": "notenoughanimations",
+      "name": "NotEnoughAnimations",
+      "version": "1.12.5"
+    },
+    {
+      "path": "mods/placeholder-api-3.1.0-beta.1+26.2.jar",
+      "kind": "mod",
+      "sha256": "c2ca2b5c397a0c198a32e7af68d2d0a011bc2c7baeae5cffd3996efd65c5069e",
+      "size": 254973,
+      "id": "placeholder-api",
+      "name": "Placeholder API",
+      "version": "3.1.0-beta.1+26.2"
+    },
+    {
+      "path": "mods/puffish_skills-0.19.1-26.2-fabric.jar",
+      "kind": "mod",
+      "sha256": "a286e5f16193836262eccf6513a2aa88a7f879270d1a6463891c5e6e4915b99d",
+      "size": 642025,
+      "id": "puffish_skills",
+      "name": "Pufferfish's Skills",
+      "version": "0.19.1"
+    },
+    {
+      "path": "mods/quick-pack-fabric-1.5.1+26.2.jar",
+      "kind": "mod",
+      "sha256": "2fa157565821a9b4bb00355b11a9c6df156110c0eff1fd860da1c1b9bb6e02cb",
+      "size": 22373,
+      "id": "quick-pack",
+      "name": "quick-pack",
+      "version": "1.5.1"
+    },
+    {
+      "path": "mods/ranged_weapon_api-fabric-4.0.0+26.2.jar",
+      "kind": "mod",
+      "sha256": "87b84bea0ab193257a7666d40d098bb8de392735b736e3440f9553d52ffb27e1",
+      "size": 157327,
+      "id": "ranged_weapon_api",
+      "name": "RangedWeaponAPI",
+      "version": "4.0.0+26.2"
+    },
+    {
+      "path": "mods/relics-fabric-1.4.1+26.2.jar",
+      "kind": "mod",
+      "sha256": "013eae223a352138342e5d629e5fec75ee7f19405b82589435993f403be8469f",
+      "size": 2204611,
+      "id": "relics_rpgs",
+      "name": "Relics (RPG Series)",
+      "version": "1.4.1+26.2"
+    },
+    {
+      "path": "mods/remorphed-fabric-8.1.jar",
+      "kind": "mod",
+      "sha256": "c123e7f31d88f4a3764c39fb0d15966cb5536f090ee3316f339923286225e366",
+      "size": 778593,
+      "id": "remorphed",
+      "name": "ReMorphed",
+      "version": "8.1"
+    },
+    {
+      "path": "mods/runes-fabric-1.3.2+26.2.jar",
+      "kind": "mod",
+      "sha256": "6e98d0c603ccbc1452b5be3ab8e3336f633abf3fd2f2d611eba868a0ab8e5a49",
+      "size": 385813,
+      "id": "runes",
+      "name": "Runes",
+      "version": "1.3.2+26.2"
+    },
+    {
+      "path": "mods/servercore-fabric-1.5.19+26.2.jar",
+      "kind": "mod",
+      "sha256": "4f7c9fb3b35b364d8f6500d04f0d5481656f617a83bc69742b47f39adff59666",
+      "size": 909932,
+      "id": "servercore",
+      "name": "ServerCore",
+      "version": "1.5.19+26.2"
+    },
+    {
+      "path": "mods/shogi-fabric-26.2-26.2.0.8.jar",
+      "kind": "mod",
+      "sha256": "796ea5c2844834b8ddf329d0defa00ef83d26c5344e04fe8233d1545002ce77b",
+      "size": 455591,
+      "id": "shogi",
+      "name": "Shogi",
+      "version": "26.2.0.8"
+    },
+    {
+      "path": "mods/skill_tree-fabric-1.6.2+26.2.jar",
+      "kind": "mod",
+      "sha256": "405ff761ba518c87a14d8923f0c8db5f01311b86d58ca78c3e1f2731d3469901",
+      "size": 2990760,
+      "id": "skill_tree_rpgs",
+      "name": "Skill Tree (RPG Series)",
+      "version": "1.6.2+26.2"
+    },
+    {
+      "path": "mods/skinlayers3d-fabric-1.11.3-mc26.2.jar",
+      "kind": "mod",
+      "sha256": "813709ca903e8c8b004ab7114845bed5205744ad562eab9f0360bddd551b81a8",
+      "size": 1890348,
+      "id": "skinlayers3d",
+      "name": "3d-Skin-Layers",
+      "version": "1.11.3"
+    },
+    {
+      "path": "mods/sound-physics-remastered-fabric-1.5.1+26.2.jar",
+      "kind": "mod",
+      "sha256": "5bf577901123044337070fee36c1731c86e2fc12923bbb6a1c4b49c3423adcd9",
+      "size": 201669,
+      "id": "sound_physics_remastered",
+      "name": "Sound Physics Remastered",
+      "version": "1.5.1+26.2"
+    },
+    {
+      "path": "mods/spark-1.10.187-fabric.jar",
+      "kind": "mod",
+      "sha256": "3fc00663caa542b1e78333730609b4eb2568326628e3666a3938ad58cbc9acc6",
+      "size": 3838499,
+      "id": "spark",
+      "name": "spark",
+      "version": "1.10.187"
+    },
+    {
+      "path": "mods/spell_engine-fabric-1.10.9+26.2.jar",
+      "kind": "mod",
+      "sha256": "bfc258875662071d76c448e603f05f0f519bf3e8a0c32207d232d820cab0ab2a",
+      "size": 4758073,
+      "id": "spell_engine",
+      "name": "Spell Engine",
+      "version": "1.10.9+26.2"
+    },
+    {
+      "path": "mods/spell_power-fabric-1.6.2+26.2.jar",
+      "kind": "mod",
+      "sha256": "5619b9f65134cce55284af0cb1e879a7bebdcab5d6099936ee1231cedbb89f90",
+      "size": 226491,
+      "id": "spell_power",
+      "name": "Spell Power Attribute",
+      "version": "1.6.2+26.2"
+    },
+    {
+      "path": "mods/structure_layout_optimizer-1.1.4+26.1-fabric.jar",
+      "kind": "mod",
+      "sha256": "189a4356cc34b34156ec18dd22b9d63e617f12dddfe31729c640fcc62b5ad1fc",
+      "size": 71476,
+      "id": "structure_layout_optimizer",
+      "name": "Structure Layout Optimizer",
+      "version": "1.1.4+26.1-fabric"
+    },
+    {
+      "path": "mods/structure_pool_api-fabric-1.3.0+26.2.jar",
+      "kind": "mod",
+      "sha256": "4cc05e1c0e022c1ab23efbc85d47ee6eafabaf9db70dec51159c8d82f275f28e",
+      "size": 127265,
+      "id": "structure_pool_api",
+      "name": "Structure Pool API",
+      "version": "1.3.0+26.2"
+    },
+    {
+      "path": "mods/tegmatlibf-26.2.1.2.jar",
+      "kind": "mod",
+      "sha256": "f7b73614ca1a94c68ab109bf872ff045d0bef51a4467c3e735c1b82b236a12ca",
+      "size": 149736,
+      "id": "tegmatlibf",
+      "name": "Material Lib",
+      "version": "26.2.1.2"
+    },
+    {
+      "path": "mods/toms-iron-chests-compat-1.2.1.jar",
+      "kind": "mod",
+      "sha256": "e592a5bec9f5ec87fd4b3b8b5a0b7d8c7bffb93edd7816389fd20f3e5dc2b87e",
+      "size": 6267,
+      "id": "toms_iron_chests_compat",
+      "name": "Tom's Storage × Iron Chests Compat",
+      "version": "1.2.1"
+    },
+    {
+      "path": "mods/toms_storage_fabric-26.2-2.11.3.jar",
+      "kind": "mod",
+      "sha256": "c635bb2a4d22522dda472e0ca5513fdfb1aae8c560948961c63548c853bc5e0c",
+      "size": 1882033,
+      "id": "toms_storage",
+      "name": "Tom's Simple Storage Mod",
+      "version": "2.11.3"
+    },
+    {
+      "path": "mods/trinkets-4.1.1+26.2.jar",
+      "kind": "mod",
+      "sha256": "2365e8a19b5f62c812e95ac5fc23ee163bc753a5d9ec38f517f72da269eb0c4b",
+      "size": 663529,
+      "id": "trinkets_updated",
+      "name": "Trinkets Updated",
+      "version": "4.1.1+26.2"
+    },
+    {
+      "path": "mods/veinminer-fabric-2.12.1.jar",
+      "kind": "mod",
+      "sha256": "37878cb8de86468658c5192db14a4e58943699484ff236631071e9f7a175489c",
+      "size": 524181,
+      "id": "veinminer",
+      "name": "Veinminer",
+      "version": "2.12.1"
+    },
+    {
+      "path": "mods/walkers-fabric-8.3.2.jar",
+      "kind": "mod",
+      "sha256": "ca8bb7b9310b139cdb4f16d762b1acd050eec41e891fc5b3d02c3d5750c87648",
+      "size": 1178857,
+      "id": "walkers",
+      "name": "Walkers",
+      "version": "8.3.2"
+    },
+    {
+      "path": "mods/waystones-fabric-26.2-26.2.0.12.jar",
+      "kind": "mod",
+      "sha256": "0030c21fed785d41815b6f84717c073159a2bd0ceec32b335bf57554461aaed5",
+      "size": 1220789,
+      "id": "waystones",
+      "name": "Waystones",
+      "version": "26.2.0.12"
+    },
+    {
+      "path": "mods/wizards-fabric-3.1.3.003+26.2.jar",
+      "kind": "mod",
+      "sha256": "ced172215b3f5fb4301252d171e26c621fbebcc579fc67bd639fb2d92a8034a2",
+      "size": 4569857,
+      "id": "wizards",
+      "name": "Wizards (RPG Series)",
+      "version": "3.1.3.003+26.2"
+    },
+    {
+      "path": "mods/worldweaver-26.2.3-fabric.jar",
+      "kind": "mod",
+      "sha256": "7ae9c9a5e21923751be46f23d2db4714af19c479f46ce37ce268e5231bbccf3b",
+      "size": 2471449,
+      "id": "wover",
+      "name": "WorldWeaver",
+      "version": "26.2.3"
+    },
+    {
+      "path": "mods/worldweaver-26.201.2.jar",
+      "kind": "mod",
+      "sha256": "e042ec2011d1613eaf9e7fc3e27179f31b1a1be704b4271d035589a69914b8a1",
+      "size": 2936999,
+      "id": "wover",
+      "name": "WorldWeaver",
+      "version": "26.201.2"
+    },
+    {
+      "path": "mods/wunderlib-26.2.0-fabric.jar",
+      "kind": "mod",
+      "sha256": "3903ec7ccd091a601a236112fc15f2c865022c2c5531199bdc2fb37d859fd4c0",
+      "size": 387391,
+      "id": "wunderlib",
+      "name": "WunderLib",
+      "version": "26.2.0"
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.9.7+26.2-fabric.jar",
+      "kind": "mod",
+      "sha256": "69ab51b2475332d1d26ef4f3b3a2b7e5c47dfc904a76730462f83a9c38780e39",
+      "size": 1125271,
+      "id": "yet_another_config_lib_v3",
+      "name": "YetAnotherConfigLib",
+      "version": "3.9.7+26.2-fabric"
+    }
+  ],
+  "seeds": [
+    {
+      "path": "config/MouseTweaks.cfg",
+      "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
+      "size": 135,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/NoChatReports/NCR-Client.json",
+      "sha256": "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480",
+      "size": 565,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/NoChatReports/NCR-Common.json",
+      "sha256": "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0",
+      "size": 230,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/NoChatReports/NCR-ServerPreferences.json",
+      "sha256": "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1",
+      "size": 24,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/NoChatReports/README.md",
+      "sha256": "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f",
+      "size": 167,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/Veinminer/blocks.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/Veinminer/groups.json",
+      "sha256": "562a9eca6f6ee900b9e9256ab9c65ed2a61db2535039b3636334c07318870cfb",
+      "size": 576,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/Veinminer/settings.json",
+      "sha256": "93b4feae1a24cb9f070104e2e52c4970aa705bdf812a9400ed9cc11deb8ec33a",
+      "size": 1010,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/Veinminer/update/veinminer-client-fabric-2.12.1.jar",
+      "sha256": "ebb0af50af6cce11305ee5f578b0e7b033ec323f8486f11abd41fee3045a3287",
+      "size": 196694,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/Veinminer/update/veinminer-fabric-2.12.1.jar",
+      "sha256": "15ddd6e9dbcd7e0a8035f1ed190f880980eed876a1779a28c711fafe691408b9",
+      "size": 523832,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/alaindustrial-client.json",
+      "sha256": "917f86cec694ffcc88a5e653c957541a9aa0b6463ab264d6464b20787fe908c4",
+      "size": 405,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/alaindustrial.json",
+      "sha256": "3dee7ba2673496257aa989b22a58989de225710711e4572a920f016f2199e634",
+      "size": 96840,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/almanac-nbtFix.json5",
+      "sha256": "f6d57ad1094c0c35ec20b9a60f86a7bbd7570844c6cf5180d8ffca5d6a9b2eae",
+      "size": 634,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/appleskin.json5",
+      "sha256": "65edc28ca2bf6bd3e3684ae545fb74bcc0ec935a40d6ac60cb68c00c152e34fb",
+      "size": 1218,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/armory_rpgs/client.json",
+      "sha256": "0d9ebee9f062b2fa2d5b0b6648d35a59cbb63bdc4fd3d309213938604ae086d5",
+      "size": 40,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/armory_rpgs/effects.json",
+      "sha256": "6a536b0a67d857d51af410e3dd438402fc6cb040ba87ab347498d5048d6c8745",
+      "size": 19,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/armory_rpgs/equipment_v3.json",
+      "sha256": "ca054ba21ee842346ecf99cee32694bbc15463c20f70f6c7564763fe3f1a9ee8",
+      "size": 39973,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/arsenal/effects.json",
+      "sha256": "861bf091b01b23a27297ff8a586423e1b5ef840b0056253cfb81ef76e0553e1b",
+      "size": 2114,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/arsenal/equipment_v2.json",
+      "sha256": "729c5fe398b8ef655557712c866ef58967dd7ef68f65e2bc170830cde9b2aec7",
+      "size": 6440,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/arsenal/ranged_weapons.json",
+      "sha256": "d8a781f4d2f217cf05d98639dd750ca09d2928ccf1396a1522f31a2b0ff6d2bf",
+      "size": 783,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/arsenal/shields.json",
+      "sha256": "d659f05d057a18de40bdafc32456a06f04fcb88c6de8e03a18f192c80b1eee32",
+      "size": 1084,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/critical_strike/chance.json",
+      "sha256": "85bc5671b741976a579ce449482d168e64e4fbe793b73822e66e183bf30d3508",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/critical_strike/damage.json",
+      "sha256": "85bc5671b741976a579ce449482d168e64e4fbe793b73822e66e183bf30d3508",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/air_drag_modifier.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/armor.json",
+      "sha256": "b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/armor_toughness.json",
+      "sha256": "b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/attack_damage.json",
+      "sha256": "b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/attack_knockback.json",
+      "sha256": "b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/attack_speed.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/below_name_distance.json",
+      "sha256": "6cd57a7ca2f9d04fbacd8ca3e6f4b17b1bab8deec05213ce5847bde562bace5a",
+      "size": 383,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/block_break_speed.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/block_interaction_range.json",
+      "sha256": "137e8a8052b2264bc1c881b91b97011e4c33726819f4c434753ad5480ee3d19f",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/bounciness.json",
+      "sha256": "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
+      "size": 379,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/burning_time.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/camera_distance.json",
+      "sha256": "220b18479d9b6497fc95e3b2ffcca5014d93eca33153fab8f343151c9a553bde",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/entity_interaction_range.json",
+      "sha256": "137e8a8052b2264bc1c881b91b97011e4c33726819f4c434753ad5480ee3d19f",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/explosion_knockback_resistance.json",
+      "sha256": "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
+      "size": 379,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/fall_damage_multiplier.json",
+      "sha256": "6217856e9bb2355a468bbe03fe24bc97bae91f8deb54e9df42f8a4021cde99e6",
+      "size": 383,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/flying_speed.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/follow_range.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/friction_modifier.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/gravity.json",
+      "sha256": "84207d0866413a367d92222bd193912a418615f5eb9da342057bafec30173a79",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/jump_strength.json",
+      "sha256": "220b18479d9b6497fc95e3b2ffcca5014d93eca33153fab8f343151c9a553bde",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/knockback_resistance.json",
+      "sha256": "a103b8b62d3f94cc5e16f2157f16f737532a3a77e961d4d6023e60f4bc04b9aa",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/luck.json",
+      "sha256": "6bce4756f23cedf273e963254625fa594a32208f99de05db1abd1e77ec671372",
+      "size": 393,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/max_absorption.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/max_health.json",
+      "sha256": "9d0ae1c8fda340e80aac17df9999ec1e9c7396a2327f63a40ea8006991201305",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/mining_efficiency.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/movement_efficiency.json",
+      "sha256": "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
+      "size": 379,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/movement_speed.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/name_tag_distance.json",
+      "sha256": "6cd57a7ca2f9d04fbacd8ca3e6f4b17b1bab8deec05213ce5847bde562bace5a",
+      "size": 383,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/oxygen_bonus.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/safe_fall_distance.json",
+      "sha256": "6bce4756f23cedf273e963254625fa594a32208f99de05db1abd1e77ec671372",
+      "size": 393,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/scale.json",
+      "sha256": "0e28210686e7f216d46ba0fee2508c263c7c39e26fb6d8380404789d3185e73a",
+      "size": 387,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/sneaking_speed.json",
+      "sha256": "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
+      "size": 379,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/spawn_reinforcements.json",
+      "sha256": "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
+      "size": 379,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/step_height.json",
+      "sha256": "93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/submerged_mining_speed.json",
+      "sha256": "f874427dd6754eff702ef41fd35649493094ddd0c79e01623a2cc9ccfe8ce8d7",
+      "size": 381,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/sweeping_damage_ratio.json",
+      "sha256": "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
+      "size": 379,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/tempt_range.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/water_movement_efficiency.json",
+      "sha256": "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
+      "size": 379,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/waypoint_receive_range.json",
+      "sha256": "2d8ef79ff6cbf914b4080e290dafd2bcddd8f497cebc08502f657350035ae323",
+      "size": 383,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/minecraft/waypoint_transmit_range.json",
+      "sha256": "2d8ef79ff6cbf914b4080e290dafd2bcddd8f497cebc08502f657350035ae323",
+      "size": 383,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/ranged_weapon/damage.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/ranged_weapon/haste.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/ranged_weapon/pull_time.json",
+      "sha256": "fef2c6b6b818a3cae8d1cd4eb6bf9378d474e36dcf27320f764a50970c595b27",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/ranged_weapon/velocity.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_engine/damage_taken.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_engine/evasion_chance.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_engine/healing_taken.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/arcane.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/critical_chance.json",
+      "sha256": "71d42d76b84bb16b483000c34bd52899c1d900405479f8134dc58ddc92f5d03d",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/critical_damage.json",
+      "sha256": "71d42d76b84bb16b483000c34bd52899c1d900405479f8134dc58ddc92f5d03d",
+      "size": 389,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/fire.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/frost.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/generic.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/haste.json",
+      "sha256": "41170b7b4d990e5f28fde8585b3d51e22da4e44a6b5a918c8dea304ea10457bb",
+      "size": 387,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/healing.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/lightning.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/resistance.generic.json",
+      "sha256": "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/attributefix/spell_power/soul.json",
+      "sha256": "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
+      "size": 385,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/awesomedungeon.config.properties",
+      "sha256": "16831b968ab74ee9bcca612fd3f4dc2167169ae90441336246a9f3e2b1cd4da5",
+      "size": 1407,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/awesomedungeonocean.config.properties",
+      "sha256": "ee19f99533e5acad8ffb8b985f681052d8cb4c4c8d35335d8e161fd8cb7bdb62",
+      "size": 1513,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/badoptimizations.txt",
+      "sha256": "9a78f6fee180ae4d08ea99f9eaba3ec00ee06887f1d171152b44f4de3596ee34",
+      "size": 3540,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/bettervillage.config.properties",
+      "sha256": "bfecf28c6982abea2d1a0e536f77285f0dd61d1d8df9b69cdc50ffb3ff713241",
+      "size": 147,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/buffmobs.json",
+      "sha256": "9b742a63e7270407b6c78ba64b3b2fb5f67b836b4426ab668a7918d16c9d920b",
+      "size": 5933,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/c2me.toml",
+      "sha256": "e5c7cebf8d99f4fa1228cc0408e4be68c157d6ea59ed3ab8ec465406c426efac",
+      "size": 13802,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/chat_heads.json5",
+      "sha256": "fa175af7dd30cb6c61460cb097f95fd70be41354d624cba2b75bee8255f661ef",
+      "size": 249,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/chloride-client.toml",
+      "sha256": "1e1df66f32682cc1a8b7bc40273f85f4d72c7127df4c81928c94a13a90d4b066",
+      "size": 5287,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/continuity.json",
+      "sha256": "28eaff624c99a24e49882e5f56496a9e0f55e9a25e583e9313b0360494810b65",
+      "size": 61,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/controlify/controlify.json",
+      "sha256": "59e2fa57cf1d579bd5cf3c8fac48ec0ca623412970ff2250011526e09e2c06fd",
+      "size": 563,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/controlify/profile-1.json",
+      "sha256": "f3051cdad72a13e4e191fe133f768c588e07a8637e11954b9541f12f0c54a81a",
+      "size": 2184,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/controlify/profile-1.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/craftedcore.json5",
+      "sha256": "73acea26ceb7840631dd70bafef6bfbe672f6582ab349e12c0466b428f4c365a",
+      "size": 191,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/create/client.json",
+      "sha256": "9646e43a8ec8064c139f6f95ee5ac386989434b186b5652bdf70e5719345092a",
+      "size": 6660,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/create/common.json",
+      "sha256": "c87fcc5c79d37ee3bfc9de5226cd1d360a2595648b268e7b4d7d6fabe29ee2bd",
+      "size": 209,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/create/server.json",
+      "sha256": "6c36a991a84ae70119bf04ae1e19712cd47ea08c461b2d749bdf65a5bcbd37ac",
+      "size": 24989,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/createaddition-common.json",
+      "sha256": "11c6d167907d296ad9655da70cded4e1b986465ed2325fc6f6847094c2ebef9d",
+      "size": 10594,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/createreiviewer.json",
+      "sha256": "32744f622a352d3703b9dc5c8a8641f178c797e9c93468f9dc713217694c52b0",
+      "size": 109,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/creativecore-client.json",
+      "sha256": "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac",
+      "size": 23,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/creativecore.json",
+      "sha256": "5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef",
+      "size": 274,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/critical_strike/client_config.json",
+      "sha256": "9d9fdc01bd2fd5a0bd2ab2edfd584d9d9f1e9ced929cdaf6fa33228b443023be",
+      "size": 126,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/critical_strike/server_config.json",
+      "sha256": "26cb9eaaf98e8a511a700a3cc48e561fb7f819e63d8e556abf4867dbeb3cabce",
+      "size": 561,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/drippyloadingscreen/options.txt",
+      "sha256": "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5",
+      "size": 2465,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/dynamic_fps.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "size": 3,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/energizedpower/client.conf",
+      "sha256": "b989f12c1456f753139f90c7b97034708c0bca2c481818489aa43b7b29f6bf19",
+      "size": 764,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/energizedpower/common.conf",
+      "sha256": "52333470e27a0ed29bdefee179e38f366b0c03dc939122d6b0bba98049aa9376",
+      "size": 92688,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/energizedpower/server.conf",
+      "sha256": "2b8939b405bd192e0801e1b869faff414529d88afe798a9628f2efeabe14452f",
+      "size": 185,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/enhancedcelestials2core/fabric_mixins.properties",
+      "sha256": "c36f1300c40ecab67ab3ea1c8781dc93d054fc699032a652ac53194de832da25",
+      "size": 306,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/enhancedcelestials2core/translations-cache/en_us.json",
+      "sha256": "4a3f89f36202227fe1e1204d372c3c94cf68f780a400da2a32907a4dd71f8e24",
+      "size": 40,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/enhancedcelestials2core/translations-cache/fr_fr.json",
+      "sha256": "28642a94a263cf9b794bb5573061a4c065c36b091558f87f68c4c78bf4106bf2",
+      "size": 40,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/enhancedcelestials2defaultlunarevents/translations-cache/en_us.json",
+      "sha256": "4a3f89f36202227fe1e1204d372c3c94cf68f780a400da2a32907a4dd71f8e24",
+      "size": 40,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/enhancedcelestials2defaultlunarevents/translations-cache/fr_fr.json",
+      "sha256": "28642a94a263cf9b794bb5573061a4c065c36b091558f87f68c4c78bf4106bf2",
+      "size": 40,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/enhancedcelestials2shaders/translations-cache/en_us.json",
+      "sha256": "8623d1197ab674f28c89b9250e64c3ae314374f00fc487e0ad17d3270e94f966",
+      "size": 40,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/enhancedcelestials2shaders/translations-cache/fr_fr.json",
+      "sha256": "12d1dd0de535c2563a112d0e5d92006c870b093665c4395b846ed41126713b2b",
+      "size": 40,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/entity_model_features.json",
+      "sha256": "e0f8ab833d6b4625b6a0566ef2c1b6010368f05003508fc30f96aa5275690cd4",
+      "size": 1340,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/entity_texture_features.json",
+      "sha256": "bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba",
+      "size": 1452,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/entityculling.json",
+      "sha256": "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe",
+      "size": 2248,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/etf_warnings.json",
+      "sha256": "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e",
+      "size": 28,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/expore-common.toml",
+      "sha256": "896d21236425b02cf76bfcc9ac17a3ef9083e40636e90e0bbabf15552f6bb370",
+      "size": 292,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/custom_gui_screens.txt",
+      "sha256": "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880",
+      "size": 51,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "sha256": "a83e520716f7d5fa43025d5991acd6e2160fc43ba604bd4c258b9f5c0812830f",
+      "size": 99,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/legacy_checklist.txt",
+      "sha256": "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0",
+      "size": 42,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/options.txt",
+      "sha256": "6df834ff0756d1d57f5ff20abcc8d5e716f7736fe38f83f390d5b4f539b407ab",
+      "size": 4400,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/cherry_blossom.json",
+      "sha256": "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452",
+      "size": 9349,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/cozy_campfire.json",
+      "sha256": "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50",
+      "size": 9347,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark.json",
+      "sha256": "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498",
+      "size": 9329,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark_high_contrast.json",
+      "sha256": "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26",
+      "size": 9359,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light.json",
+      "sha256": "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153",
+      "size": 9331,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light_high_contrast.json",
+      "sha256": "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a",
+      "size": 9361,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/pumpkin_soup.json",
+      "sha256": "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311",
+      "size": 9345,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/purple_void.json",
+      "sha256": "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0",
+      "size": 9343,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/spooky_season.json",
+      "sha256": "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd",
+      "size": 9347,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fancymenu/user_variables.db",
+      "sha256": "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823",
+      "size": 23,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fastitemframes-client.toml",
+      "sha256": "8116fddd3ff401c11243e1b0df36faeaa733dfd729f9c3c319e8deda1b78fb63",
+      "size": 572,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fastitemframes-server.toml",
+      "sha256": "c437220f0fdbeb53b7e3551e0d0a2f02d4dea412eed9d2b9842a9a942a0a5c60",
+      "size": 302,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/ferritecore.mixin.properties",
+      "sha256": "71d5e19e278cb843d92f90a99b8a9772780c62e5611b7c8cc92097cd18399b08",
+      "size": 815,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/flywheel-client.json",
+      "sha256": "43c889a6af1df1a00ca3d733797d19a28f73e0fd26e62bdeb99a2d8b2a98d980",
+      "size": 938,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/forgeconfigapiport.toml",
+      "sha256": "40dbe5b348f89b8ded62bcdfe32807ffc3e78fa8e0f81607a739580019fe5450",
+      "size": 523,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/furnace-overlay-client.json",
+      "sha256": "04dc762a7e025b5e01e2ac590845ee3e0f548c443b5659d0dfd1975259554e3f",
+      "size": 108,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/fzzy_config/keybinds.toml",
+      "sha256": "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f",
+      "size": 6403,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/gazebo/villages.json",
+      "sha256": "ebc11a813717c51291ca41d61314bceb4e60f551b04a97ad4184e14162a3cc71",
+      "size": 1043,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/gnetum.json",
+      "sha256": "a6392d6c909ca8a8683664996d3ee1910ebdd4a2d624788ba459da1668d5fa1e",
+      "size": 3590,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "sha256": "351554b5d847acfb0dcdd05a93b5b93f27035178bcbde4d5193b4dc5a5a2f11b",
+      "size": 951,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/immersive_armors.json",
+      "sha256": "c5deb8b07100eae8a76fa76ce207fc619d281b74b022bc9094784237125d3cc9",
+      "size": 435,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/immersive_optimization.json",
+      "sha256": "72c171bed9d554dfa0a3d7af64c39194b95feaf3f787c1219603181c1316e58f",
+      "size": 1007,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/immersiveores/enderium-common.toml",
+      "sha256": "65448d89366d65b0850fdc975624d5e848ddbceeb36ea30e00c6bc14863f6384",
+      "size": 3930,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/immersiveores/vibranium-common.toml",
+      "sha256": "5e6c169c769a82ab5809b0d254927e4575218b3f648c75e1051d2a452ca41ee0",
+      "size": 3531,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/immersiveores/vulpus-common.toml",
+      "sha256": "f1df03ca40017f7c7afa94b07e4bd41ec96c72a0b97bc8cf5dc2b475f936f59f",
+      "size": 3466,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/inventoryprofilesnext/Nouveau monde/villager-trading-config-v2.json",
+      "sha256": "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef",
+      "size": 1177,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+      "sha256": "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a",
+      "size": 1450,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/inventoryprofilesnext/inventoryprofiles.json",
+      "sha256": "a44027e5b5bf7106a7657a84978cbdb46b0d55ac9db0cf77636d4670c4ebfdc3",
+      "size": 57,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/iris-excluded.json",
+      "sha256": "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
+      "size": 31,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/iris.properties",
+      "sha256": "6d73a45e6f53d9962c5b20e9a866ce4657c8d3522452227ceabd99b97ec7b6f0",
+      "size": 282,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/ironfurnaces.json",
+      "sha256": "8644a6eab87d2e4fe08148d8b5908e451647394e2a8964af7ad204bf8f281f6e",
+      "size": 1585,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/ixeris.toml",
+      "sha256": "c02ede146ae967651ceafba4301bb814674e66ffcfdd078ab14ba251418a0434",
+      "size": 2346,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/hide-blocks.json",
+      "sha256": "84897f1d0d6ff1929a20b4a94d2d0c28b8a3cf59d994ed36dd04096fa1df5ff9",
+      "size": 178,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/hide-entities.json",
+      "sha256": "56e6ef5bce9894326789a74739ad690b82de602bbfac0d8e80ac6a34e720dc36",
+      "size": 272,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/hide-mob-effects.json",
+      "sha256": "49011e7f76e230dc47a99aa0d130844894f8f1e5931a038b0ba8530cf9f25793",
+      "size": 161,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/jade.json",
+      "sha256": "0a32fd8bf26537963d70d62afaad53ccbb4f6c8c25ec16b9299846bb00fcbf25",
+      "size": 3834,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/profiles/1/jade.json",
+      "sha256": "53bdf94f93dedb2a61d1af3b09d30a1aec808c563e1b667fc26a9474928e454e",
+      "size": 3615,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/profiles/2/jade.json",
+      "sha256": "a423a4090691ed36d2df7e793db4dc8885c792c07ab82d6c5755d4324d87ec21",
+      "size": 3624,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/profiles/3/jade.json",
+      "sha256": "b00ca95b5dadc9b083591e577fec4c4e9de0945c41ae569da173bcb72959a447",
+      "size": 3567,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/server-plugin-overrides.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jade/sort-order.json",
+      "sha256": "317297a42b198933b6eb36014df049bda7d464bc87d906cbee086e8d569c6e45",
+      "size": 2281,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jewelry/features.json",
+      "sha256": "22b6e98c3e691c3e67adf9e278c33cda9b400d3a715936079c4682452b31a839",
+      "size": 41,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jewelry/items_v9.json",
+      "sha256": "848084ea45f0e84d52ebb0fbac86ddc0622dfc72aea9c4a32b1927ac41be5f45",
+      "size": 18224,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/jewelry/villages.json",
+      "sha256": "3a0ad1c6bf844e60952867bbb67ebac157ce720a9904362b4a26d6048096a5f8",
+      "size": 1074,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/lambdynlights.toml",
+      "sha256": "fdd6958ff17541c8d1c891bd1602088bb6888f41229e966387a07311f32ec6d9",
+      "size": 1448,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/languagereload.json",
+      "sha256": "47a48bbf1ef075d8b8d17b3967cb15d678861c0d947b22d224c257d34fbc7e60",
+      "size": 206,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/letmedespawn.json",
+      "sha256": "3ca4af27f8cbc1d0274667e806a2cae3e4e08495bd6b0728a32d033f9375f55e",
+      "size": 149,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/libraryferret.config.properties",
+      "sha256": "d7bc2b48b1c6ea2108b2100471413f231dc95558321cb1c79ef5a4a8c6344ffc",
+      "size": 169,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/lithium.properties",
+      "sha256": "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
+      "size": 267,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/lootr-client.jsonc",
+      "sha256": "6df3362f318c71017bec9e99762284dd5ccb896341e191cdc18cc0724fdf99e6",
+      "size": 1533,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/lootr-common.jsonc",
+      "sha256": "4a99d1c2a64cd16837107f9a522416e0f34908fc2775228c85a15e19e8e30517",
+      "size": 10419,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "sha256": "d0a8f796e927ca4aa171e3bb4eeef0f073092fecd6e71dd0b31af85462365c63",
+      "size": 4438,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/modmenu.json",
+      "sha256": "e8f1becee4d20e11702910e0d3eedbe35175922c6ba1a98b52efeb8c9ab3a11d",
+      "size": 842,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/moreculling.toml",
+      "sha256": "976a76d9aeb5c7e9c2a2293dfd1b38a850c20948ffaf813221868089e2fa0953",
+      "size": 495,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/mutantszombies.json5",
+      "sha256": "e9556009889d8657e22959e1019e6fc8ed71556f9d938d3a46c417dfce1fd98f",
+      "size": 1115,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/mythicupgrades.json",
+      "sha256": "57b4e3777f8463bfe2cf686685a287d1096ae6f5e8659a58d5ccd01c03fdf0b2",
+      "size": 3721,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/noisium.json",
+      "sha256": "3b6acdbc5ce36d9a81fb2a889760b5eb9fd88683cb06e234eca92559ad151329",
+      "size": 146,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/notenoughanimations.json",
+      "sha256": "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4",
+      "size": 3357,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/packetfixer.properties",
+      "sha256": "65cff58b191617704c4eaa4c16afeb9067f6e82d9ef132b367ec0130791e3212",
+      "size": 554,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/pal.properties",
+      "sha256": "feb20e90815c27469d56ae4ec8d5fcbf51f5ad41af9b697e6dc65c00af967b71",
+      "size": 217,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/particle_core_config.toml",
+      "sha256": "9f78cd6740c669aceea023504efd2e600168af4bb41c2f0b12caa9988384b609",
+      "size": 361,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/particle_core_disabled_optimizations_v2.json",
+      "sha256": "3d731115173b34dd0fe9de6f52fa14dc271c848495a52f66c0016e24150f59d6",
+      "size": 1862,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_animations_client_config.json",
+      "sha256": "d8a629b25da461374926b02b6649ed90154cb1bb6ab7e5208f519b5bcf29b08b",
+      "size": 2704,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_blocks_client_config.json",
+      "sha256": "62e07d8776af7e5ea542e4d93135cafc60f6a8646f4e36aea0bec67f9fd4f79e",
+      "size": 775339,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_client_config.json",
+      "sha256": "335d8471655deb5ae5ba4dfa8ce3e753fce58a3d73f4fd75e3b5334ecfaf03e0",
+      "size": 4822,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_cloth_config.json",
+      "sha256": "c004242898b912a2ad1a836a4e017d921c1e8660180565ce56dc4cadc027e939",
+      "size": 49,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_mobs_client_config.json",
+      "sha256": "752775debf65550a6a11ae2cc27c6f5c649cb8ac833a496e5c222d484bc63c14",
+      "size": 26,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_server_config.json",
+      "sha256": "1afde48eff108eb21adb246de5d44ef6ced16862cca62cf0123c059a9934c7cc",
+      "size": 96,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_snow_client_config.json",
+      "sha256": "be9653fa4e4d46b7aed9b5383977d93a0ae940f9184650a1422d53dd59eb2928",
+      "size": 188,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/physicsmod/physics_vines_client_config.json",
+      "sha256": "ccc72d3e8aac290f11df41504aedabf7d26dca2c5e452df1c393a918379d2c3a",
+      "size": 19791,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/ponder-client.json",
+      "sha256": "ff07e5f6c28d0b9eef0d3a625234ecddbda55e392172b3054f4dafdb7aba0d3d",
+      "size": 858,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/presencefootsteps/updater.json",
+      "sha256": "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e",
+      "size": 68,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/presencefootsteps/userconfig.json5",
+      "sha256": "90fab4d4fe137ee65a86934eab457c4c679a87f6bd3188a320e8c0ade3ef5112",
+      "size": 3341,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/puffish_skills/config.json",
+      "sha256": "548156b84adda7e833d8f8d0cc5dd82dff1ba23a93011c4770ad548f1b9c82b0",
+      "size": 42,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/quick-pack.json",
+      "sha256": "2ebd9f3b7f57a7d298b95373ee240953d7764b301e4375817ef53a1230f53d06",
+      "size": 77,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/railways/client.json",
+      "sha256": "15bcc8693a4bda700826b74c431d25f49975f0133fecfc2e56111c646b617a06",
+      "size": 2965,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/railways/common.json",
+      "sha256": "a213f90462845ce3ef1e71581d4b1f9b8f226f4cabc1bb339cb5d593e0f1e3c5",
+      "size": 538,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/railways/server.json",
+      "sha256": "cf4d395512b35f2acd062de063e5d834a2c19d282a9995c02e1c74c90f9bb89a",
+      "size": 2656,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/relics/effects.json",
+      "sha256": "b4635de23665de6f14d900fcd67eab7f69596b4545cf7cf2031da4d6c7494498",
+      "size": 9068,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/relics/items_v2.json",
+      "sha256": "f656c27fb52113ec355455509b579614bcb4e21d260880ac0ab4c3aa4aaac01b",
+      "size": 7508,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/remorphed.json5",
+      "sha256": "2591532b28b732b28a6310e119d1aa29ec3d5da7a38a1086afc0d76d325a40b5",
+      "size": 1325,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/resourceful-config-web.json",
+      "sha256": "262750e015ddc24e156336752c81ea667f6bddd3ac191b7b6f8e6a6fe5336574",
+      "size": 196,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/roughlyenoughitems/collapsible.json5",
+      "sha256": "a59667baa54738c1b294393a9b3652bcf7d392cdb8cba1c08a8006885b18e919",
+      "size": 46,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/roughlyenoughitems/config.json5",
+      "sha256": "ba8cd83625ee202a6d873ce6dc559e751808d67c706c83a9de104d481e42e7d8",
+      "size": 5877,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/roughlyenoughitems/favorites.json5",
+      "sha256": "589c13e9ebbb9ae1b868d73be8c4e30323dcb03efacf59d75b9d614f1b069b47",
+      "size": 61,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/roughlyenoughitems/hints.json",
+      "sha256": "8c4831228f7a14ffce14eba1a9cb43dfd96840f271b5a7c642c1456f74322dd1",
+      "size": 63,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/roughlyenoughitems/pinyin.properties",
+      "sha256": "512b76008dd076689ffe2810f234d4ab8a0030cd02a35ac18bfe28e67dc13e86",
+      "size": 49,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/roughlyenoughitems/pinyin_double.properties",
+      "sha256": "d0de3d642eb74d6e4ce9a591fca0a57c348644cb6908004413513d7a4ec06b9b",
+      "size": 74,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/rpg_series/loot_equipment_v2.json",
+      "sha256": "def36ccc6f024b1fb9686148d62a9b58637acf227a6dec37fa536101736807c6",
+      "size": 168700,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/rpg_series/loot_fallback_report.json",
+      "sha256": "f9f2e111af1f4ad338fa3e7dea5abf3e1a639ae9a935d7d386cfcf3dae0a83a7",
+      "size": 12656,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/rpg_series/loot_misc.json",
+      "sha256": "9c2a19fe10a7b6cb5ce5bec7da83bd37d348eeace71157c76697ff9371b172d7",
+      "size": 224,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/rpg_series/loot_scrolls_v2.json",
+      "sha256": "97635814eddfe6c691c13cc25c01345b9da87a7588e3b5af11d1903d6e52cf9e",
+      "size": 31685,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/rpg_series/tag_cache.json",
+      "sha256": "c7d829967625c042536873b6ee9b674fd032b68ccad0a581cf0c5b0c0f6ca4c9",
+      "size": 13738,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/servercore/config.yml",
+      "sha256": "2401f59056c06eb53d5e82ddf0e37bedeae4fe109d3f801167c5c12b13d55b0e",
+      "size": 12747,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/servercore/optimizations.yml",
+      "sha256": "f6a4950e02e2e2aac4525c924b22500282fc27996d4385de466ab34ff8d6dcd6",
+      "size": 1340,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/skill_tree_rpgs/effects.json",
+      "sha256": "6a536b0a67d857d51af410e3dd438402fc6cb040ba87ab347498d5048d6c8745",
+      "size": 19,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/skinlayers.json",
+      "sha256": "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166",
+      "size": 497,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sodium-extra-options.json",
+      "sha256": "c6d02a294a6615c01075925e5d33a15dd513e4ab128bb96dd77d2cf13a4e336b",
+      "size": 2110,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sodium-extra.properties",
+      "sha256": "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
+      "size": 360,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sodium-fingerprint.json",
+      "sha256": "8750ab4f6b8b34c9407b525f81e420bc3b02bdf4eb9b3568c7b640090d1f20e6",
+      "size": 427,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sodium-mixins.properties",
+      "sha256": "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01",
+      "size": 258,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sodium-options.json",
+      "sha256": "a254b8f531a8cef6ade6f1b860e80ee4cfbf5fb5905d0963c24b121c4f6518a2",
+      "size": 743,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sound_physics_remastered/occlusion.properties",
+      "sha256": "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb",
+      "size": 4831,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sound_physics_remastered/reflectivity.properties",
+      "sha256": "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a",
+      "size": 4713,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sound_physics_remastered/sound_rates.properties",
+      "sha256": "04472af5b1cbd20ffcc7d77d5bfdd2253d1607f35b7ba7e0616816ebbd436e24",
+      "size": 97904,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sound_physics_remastered/soundphysics.properties",
+      "sha256": "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d",
+      "size": 5104,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sounds/chat.json",
+      "sha256": "241aa50014f32fa088d87ae22cb802723192e07fa15fec05b5bb03a6affa3e92",
+      "size": 421,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sounds/event.json",
+      "sha256": "4ef3fe2744c42c1e34b612803af68c2043031e70e53b6da61d29047019bfc001",
+      "size": 806,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sounds/mod_utils.json",
+      "sha256": "d2517d46af150921582220fa0cd2c23ceb30963a7044fe21cc7b8552c5ad83da",
+      "size": 63,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sounds/ui.json",
+      "sha256": "2c5de40d9e9986dfb220b22078b1cc921133c17b47cc4d4d1efc008e02719289",
+      "size": 2086,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/sounds/world.json",
+      "sha256": "e698f9f2184dad829d45013b85d821abce38a024d47822cbac5846778ca398a2",
+      "size": 1772,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/spell_engine/client.json5",
+      "sha256": "1300ced14472ea5968e6fd8a1b5497a595c30ae56e7956c53024a3f461f253d3",
+      "size": 890,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/spell_engine/elemental_weaknesses.json",
+      "sha256": "6979c988ceab84dfaca3aacb4c60cfe067987f6a323c8eaddb911ffa9a257219",
+      "size": 2526,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/spell_engine/hud_config.json",
+      "sha256": "b3342d39bea6633b095b67dcb7d6fbccf07ea9ddd19116ea4ca2cd747861f318",
+      "size": 573,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/spell_engine/server.json5",
+      "sha256": "a1f8cb3071bf9db94ff246eb94607be6e206ae58798555eec04c7ec53ebe0db6",
+      "size": 6465,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/spell_engine/spell_container_templates_v2.json",
+      "sha256": "acd0869d6cce36ffe7a6f44db42c7ad8aa66183d94d05a9740484da9766bb972",
+      "size": 178,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/spell_engine/weapon_fallback.json",
+      "sha256": "9962841ccc06487c97ec1d4bdac6a505fcbece925c978ff9b4e866f2ad6bab8d",
+      "size": 7397,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/spell_power/attributes.json",
+      "sha256": "471c52f0b6a9af7fe20abf19dede53fff1f9d52159b40fe8a80f5b99b8de13c3",
+      "size": 644,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/structure_layout_optimizer.jsonc",
+      "sha256": "5a9058652bc0b88b8810e0b94eba0e1a90cbff2472845c53a7e67442682a1579",
+      "size": 1058,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/terrablender.toml",
+      "sha256": "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927",
+      "size": 988,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/toms_storage.json",
+      "sha256": "fe9bba01d323a80ceb0752143bb717708110ab6d8d3c87b32055728f81366a0d",
+      "size": 447,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/transition.json",
+      "sha256": "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
+      "size": 97,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/trender.json",
+      "sha256": "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
+      "size": 47,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/trinkets.json",
+      "sha256": "0b23e8459020ef90f8c9cbe404c08170c19c1fde8a197972dd924504b70c4445",
+      "size": 309,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/undeadnights.json5",
+      "sha256": "7edb053436c96bdaf4243fca5e4124cb534d41b85697d623b268e28a1a73f2e5",
+      "size": 3443,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/undeadnights_difficulty_config.json",
+      "sha256": "c3042404166ae50f9357b3b0f42869906dcc2193c80b99d3536f51a1dae179dc",
+      "size": 2326,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/undeadnights_horde_mobs_config.json",
+      "sha256": "c0b8792df142837ba59975cd2da6e7d26561144e99f133d2cc806b4f489568aa",
+      "size": 405,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/vanillin-client.json",
+      "sha256": "67743412f7814597f5c9829adfa6bd85ed4229aa02542de6f643208c19d27cd3",
+      "size": 2148,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/visuality.json",
+      "sha256": "1f74f3290cdadbddc0aef4e961a1fa8b97bdd2167a8b8c00b3d2e1e938d091bb",
+      "size": 1045,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/visualworkbench-client.toml",
+      "sha256": "26063b95687c060f2acbe9be49cb1155a729d67c63f6610d50ba9a84ed4250f5",
+      "size": 515,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/visualworkbench-server.toml",
+      "sha256": "31e78df15ea394de05862d3b24c5031ea3eddf102cd117834f62acd3491314e6",
+      "size": 148,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/walkers.json5",
+      "sha256": "3e34d49c7451bff812f2242b347047b7c213fb8e8716fc5ee92e2b269c0d0d2f",
+      "size": 7158,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/waterconfig.toml",
+      "sha256": "e5806ca350b26f9c299c7b75728f3f9c0664c286470daa027e4ce547097b90a5",
+      "size": 677,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/waystones-common.toml",
+      "sha256": "0ee18fb027cf47c8478164c976a29daccfbf55bb420f7f642cbeda9f21d05cf5",
+      "size": 5524,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/wizards/effects.json",
+      "sha256": "f7f87baeb823a0896dea5cf9d36ab40daa1459e309f3c3956e5b38551e2250e4",
+      "size": 1480,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/wizards/equipment_v2.json",
+      "sha256": "ecca3e91dd3eba89a4e02f29bfd9f4cef13a1bb3761e2a09e3c4756c3ded3139",
+      "size": 15358,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/wizards/summoned_entities.json",
+      "sha256": "177d6e60c92f76f62806a5bbde167f2ac6a0eb752cbee91adecbca6fb97489c2",
+      "size": 912,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/wizards/tweaks.json",
+      "sha256": "4568418cb62da85fa6a4a88a5c332d7c786ba3f4b872d7dfc05b09619b85c9ea",
+      "size": 83,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/wizards/villages.json",
+      "sha256": "4f7d44cb2b2588446db0886af941fb2c4194d15bfba7d303de1ca0d2879cff31",
+      "size": 1317,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/yacl.json5",
+      "sha256": "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e",
+      "size": 250,
+      "policy": "seed-only"
+    },
+    {
+      "path": "config/zoomify.json",
+      "sha256": "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36",
+      "size": 708,
+      "policy": "seed-only"
+    }
+  ]
+}
