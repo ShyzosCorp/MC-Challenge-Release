@@ -1,11 +1,11 @@
 {
-  "version": "1.2.0",
-  "notes": "Faster downloads, real memory detection, Minecraft heads, a calmer look, and the launcher in English and French.\n\n- Cosmoria downloads are much faster: up to 8 files at once, each still checked (size and SHA-256) before use.\n  Short network hiccups are retried automatically; a damaged file never is.\n- Memory: the launcher now reads your PC's real RAM, and the memory slider goes as high as your PC can safely give\n  (up to 32 GB). A saved value above that is brought back within the limit.\n- Your Minecraft head: the account shows the head of your official skin (hat layer included), kept for offline\n  use. Offline profiles can use a skin file of your own; without a skin, Steve is shown.\n- Offline profiles can be deleted (with a confirmation). Your worlds, screenshots and game files stay.\n- Signing in again with the same Microsoft account cleans up older offline entries for that same player: no more\n  duplicate or stuck \"Locked\" line.\n- Settings are organised by category: General, Game, Java, Accounts, Updates.\n- A calmer, more desktop look, with a new consistent set of icons.\n- English and French: the launcher follows your Windows language the first time, and you can switch at any time in\n  Settings > General. Home news are shown in your language.\n- A Cosmoria channel with nothing published yet now says so, instead of reporting a network problem.",
-  "pub_date": "2026-09-30T20:04:52Z",
+  "version": "1.2.1",
+  "notes": "A maintenance release: Cosmoria news now come from the official source.\n\n- Cosmoria news are now fetched from the official Cosmoria website, in English and French.\n- Offline, the launcher shows the last news it received.\n- Without any news received yet, the launcher shows a few built-in news (Cosmoria 1.0.0, Launcher 1.2.0).\n- The old placeholder and outdated news have been removed.",
+  "pub_date": "2026-10-01T01:43:07Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN0hYMXZhaytXcUJWUkxNNDgxSnhrMWN3SVI0V3IwZ0RLc0IrRTZ3QStvNm9IQzl2K0YzM2RxZEZkQWRRTHNrUWorNW44K2ROUzdwTGc5QjhzcnBwSDEvaHBLWkpDZVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzk4NjkyCWZpbGU6Q29zbW9yaWEtTGF1bmNoZXItMS4yLjAteDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMi4wCnZsK2gvb0p4S0dyR1V2bytUcWJ4Ni9TSXVKemhXT1dPZHhhVHdpSXNzc3NwK201ZjBZV3ZuL3hJSGdLUXhhaFlMRE5oaHVxTDFuNmZOM1FONG9QdkFRPT0K",
-      "url": "https://github.com/ShyzosCorp/MC-Challenge-Release/releases/download/launcher-v1.2.0/Cosmoria-Launcher-1.2.0-x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSN0hYMXZhaytXcU5zUW96cVFzcVpmT01JRHhkK2FtRGs2M25PUlgwaCtmQVBGWE9RQ0hXZ2Z4bTVja2FZWllxZXBvVU1wZnhWN2FFZDBxSjF6UlpLNWNIVTBZdURUV2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODE4OTg3CWZpbGU6Q29zbW9yaWEtTGF1bmNoZXItMS4yLjEteDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMi4xCkRIYkpTeEQxdG51WFc0ZmpzbXlXNGllbHlhQjVTblh0NC85LzlsdVNjdmRNWUN1bWhydGlaem1saUE3UlhkdTRibUV0ZEdZbTdNQjFNMUdjUGtwa0N3PT0K",
+      "url": "https://github.com/ShyzosCorp/MC-Challenge-Release/releases/download/launcher-v1.2.1/Cosmoria-Launcher-1.2.1-x64-setup.exe"
     }
   }
 }
