@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "product": "cosmoria-server",
+  "channel": "dev",
+  "version": "1.0.4",
+  "published_at": "2026-10-01T09:49:16Z",
+  "minecraft": "26.2",
+  "loader": {
+    "type": "fabric",
+    "version": "0.19.5"
+  },
+  "min_updater_version": "0.1.0",
+  "manifest": {
+    "url": "https://raw.githubusercontent.com/ShyzosCorp/MC-Challenge-Release/cosmoria-server-v1.0.4/manifests/1.0.4/server-manifest.json",
+    "sha256": "2c9fae45a82e035cde5a0b07585a531da83055808300213840ad0c8cf8b23836",
+    "size": 87672
+  },
+  "updater": {
+    "version": "0.1.0",
+    "target": "x86_64-unknown-linux-musl",
+    "url": "https://raw.githubusercontent.com/ShyzosCorp/MC-Challenge-Release/cosmoria-server-v1.0.4/objects/31/31e2d0979a19c1ec3e5ba6b7dd9932dbff7e6688cce90c6dcd08cf49b9217284",
+    "sha256": "31e2d0979a19c1ec3e5ba6b7dd9932dbff7e6688cce90c6dcd08cf49b9217284",
+    "size": 8744720
+  }
+}
